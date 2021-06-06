@@ -1,0 +1,6 @@
+seqs <- colnames(seqtab)
+otab <- otu_table(seqtab, taxa_are_rows=FALSE)
+colnames(otab) <- paste0("seq", seq(ncol(otab)))
+otab = t(otab)
+write.table(seqs, "dada_seqs.txt",quote=FALSE)
+write.table(otab, "dada_table.txt",quote=FALSE,sep="\t")
