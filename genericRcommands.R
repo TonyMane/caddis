@@ -7,3 +7,6 @@ colnames(otab) <- paste0("seq", seq(ncol(otab)))
 otab = t(otab)
 write.table(seqs, "dada_seqs.txt",quote=FALSE)
 write.table(otab, "dada_table.txt",quote=FALSE,sep="\t")
+
+#final command for producing fasta file using bash
+#grep -v '^x' dada_seqs.txt | awk '{print ">seq"$1"\n"$2}' > dada_seqs.fa; rm dada_seqs.txt
