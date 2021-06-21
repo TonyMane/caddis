@@ -38,6 +38,7 @@ out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, truncLen=c(240,160),
 errF <- learnErrors(filtFs, multithread=TRUE)
 errR <- learnErrors(filtRs, multithread=TRUE)
 
+
 dadaFs <- dada(filtFs, err=errF, multithread=TRUE)
 dadaRs <- dada(filtRs, err=errR, multithread=TRUE)
 
@@ -50,4 +51,4 @@ seqtab <- makeSequenceTable(mergers)
 #remove chimeras. This took ~3 hours for all 96 samples on 16GB 2.2Ghz 2015 mac. 
 seqtab.nochim <- removeBimeraDenovo(seqtab, method="consensus", multithread=TRUE, verbose=TRUE)
 
-
+taxa <- assignTaxonomy(seqtab.nochim, "/Users/stewartlab/Desktop/silva_nr99_v138.1_train_set.fa.gz")
