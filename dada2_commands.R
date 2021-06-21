@@ -15,6 +15,10 @@ list.files()
 
 #load dada2
 library(dada2)
+
+#load tidyverse
+library(tidyverse)
+
 path<-"./"
 
 #assign forward/reverse read files
