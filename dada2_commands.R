@@ -37,5 +37,17 @@ out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, truncLen=c(240,160),
 #learning error rates takes a little longer on current machine, ~1 hour... 
 errF <- learnErrors(filtFs, multithread=TRUE)
 errR <- learnErrors(filtRs, multithread=TRUE)
+
 dadaFs <- dada(filtFs, err=errF, multithread=TRUE)
 dadaRs <- dada(filtRs, err=errR, multithread=TRUE)
+
+#the actual ASV production.
+mergers <- mergePairs(dadaFs, filtFs, dadaRs, filtRs, verbose=TRUE)
+
+#make an asv/sample table
+seqtab <- makeSequenceTable(mergers)
+
+#remove chimeras. This took ~3 hours for all 96 samples on 16GB 2.2Ghz 2015 mac. 
+seqtab.nochim <- removeBimeraDenovo(seqtab, method="consensus", multithread=TRUE, verbose=TRUE)
+
+
