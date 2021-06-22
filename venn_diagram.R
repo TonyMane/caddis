@@ -1,0 +1,7 @@
+install.packages("remotes")
+remotes::install_github("Russel88/MicEco")
+library(MicEco)
+library(phyloseq)
+library(tidyverse)
+source("./caddis06212021.RDS")
+ps_venn1<-ps_venn(ps, "Type")
