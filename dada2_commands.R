@@ -67,15 +67,18 @@ samples.out <- rownames(seqtab.nochim)
 
 subject <- sapply(strsplit(samples.out, "D"), `[`, 1)
 
-#
+#meta data file with information on samples and their origins; fly, net, retreat, swab.
 caddis_toy_meta<-read.csv("./caddis_toy_meta.csv", header=TRUE)
 
+#creates another data frame needed for making the phyloseq object
 samdf <- data.frame(Subject=subject, Type=caddis_toy_meta$TYPE, Color=caddis_toy_meta$COLOR)
 
+#construcct the phyloseq object, a good master file for doing microbiome analyses.
 ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), 
                sample_data(samdf), 
                tax_table(taxa))
 
+#these next commands/packages clean up the phyloseq object
 dna <- Biostrings::DNAStringSet(taxa_names(ps))
 
 names(dna) <- taxa_names(ps)
@@ -83,4 +86,22 @@ names(dna) <- taxa_names(ps)
 ps <- merge_phyloseq(ps, dna)
 
 taxa_names(ps) <- paste0("ASV", seq(ntaxa(ps)))
+
+#OK, now we can do some exploratory analyses. First, sum all the taxa based on their genus designations.
+ps_Genus<-tax_glom(ps, "Genus", NArm=TRUE)
+
+#Get relative abundance of genera
+ps_genus_rel= transform_sample_counts(ps_Genus, function(x) x / sum(x) )
+
+#Lets look at the distribution of Desulfobacterota.
+Desulfobacterota <- subset_taxa(ps_genus_rel, Phylum =="Desulfobacterota")
+
+#Might be interesting to first look at just the dominant ones, those greater than 10%.                                      
+Desulfobacterota_filter<-filter_taxa(Desulfobacterota, function(x) sum(x) >0.01, TRUE)
+
+#can now plot the results. First tell R to make a pdf version.
+pdf("./Desulfobacterota.pdf")
+plot_bar(Desulfobacterota, fill="Genus")
+dev.off()                                     
+
 
