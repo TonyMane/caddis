@@ -56,3 +56,31 @@ seqtab <- makeSequenceTable(mergers)
 seqtab.nochim <- removeBimeraDenovo(seqtab, method="consensus", multithread=TRUE, verbose=TRUE)
 
 taxa <- assignTaxonomy(seqtab.nochim, "/Users/stewartlab/Desktop/silva_nr99_v138.1_train_set.fa.gz")
+
+#load some more packages needed for making a phyloseq object
+library(phyloseq); packageVersion("phyloseq")
+library(Biostrings); packageVersion("Biostrings")
+library(ggplot2); packageVersion("ggplot2")
+
+#get samples from table
+samples.out <- rownames(seqtab.nochim)
+
+subject <- sapply(strsplit(samples.out, "D"), `[`, 1)
+
+#
+caddis_toy_meta<-read.csv("./caddis_toy_meta.csv", header=TRUE)
+
+samdf <- data.frame(Subject=subject, Type=caddis_toy_meta$TYPE, Color=caddis_toy_meta$COLOR)
+
+ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), 
+               sample_data(samdf), 
+               tax_table(taxa))
+
+dna <- Biostrings::DNAStringSet(taxa_names(ps))
+
+names(dna) <- taxa_names(ps)
+
+ps <- merge_phyloseq(ps, dna)
+
+taxa_names(ps) <- paste0("ASV", seq(ntaxa(ps)))
+
