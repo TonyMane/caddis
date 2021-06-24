@@ -16,4 +16,8 @@ https://pubmed.ncbi.nlm.nih.gov/26311208/
 https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0206
 
 #Insect-associated bacterial communities in an alpine stream; note, does include Trichoptera: Hydropsychidae. 
+#Also has nice git hub work flow https://github.com/BenbowLab/AlpineStreamMicrobiome
 https://link.springer.com/content/pdf/10.1007/s10750-019-04097-w.pdf
+
+#Evolutionary and Ecological Consequences of Gut Microbial Communities
+https://www.annualreviews.org/doi/pdf/10.1146/annurev-ecolsys-110617-062453
