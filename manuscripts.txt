@@ -1,0 +1,7 @@
+#A collection of manuscripts (web-links) of interest for insect microbiomes, especially relatives to caddis flies. By no means wholistic, or all inclusive. 
+
+#Heliconius Butterflies Host Characteristic and Phylogenetically Structured Adult-Stage Microbiomes
+https://journals.asm.org/doi/full/10.1128/AEM.02007-20
+
+#Caterpillars lack a resident gut microbiome
+https://www.pnas.org/content/114/36/9641.short
