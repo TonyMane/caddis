@@ -1,4 +1,4 @@
-#A collection of manuscripts (web-links) of interest for insect microbiomes, especially relatives to caddis flies. By no means wholistic, or all inclusive. 
+#A collection of manuscripts (web-links) of interest for insect microbiomes and other topics. By no means holistic. 
 
 #Heliconius Butterflies Host Characteristic and Phylogenetically Structured Adult-Stage Microbiomes
 https://journals.asm.org/doi/full/10.1128/AEM.02007-20
@@ -12,3 +12,5 @@ https://sfamjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1462-2920.14420
 #Evidence-based recommendations on storing and handling specimens for analyses of insect microbiota
 https://pubmed.ncbi.nlm.nih.gov/26311208/
 
+#Exploring the underwater silken architectures of caddisworms: comparative silkomics across two caddisfly suborders
+https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0206
