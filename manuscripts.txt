@@ -14,3 +14,6 @@ https://pubmed.ncbi.nlm.nih.gov/26311208/
 
 #Exploring the underwater silken architectures of caddisworms: comparative silkomics across two caddisfly suborders
 https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0206
+
+#Insect-associated bacterial communities in an alpine stream
+https://link.springer.com/content/pdf/10.1007/s10750-019-04097-w.pdf
