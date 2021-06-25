@@ -105,6 +105,10 @@ Desulfobacterota_filter<-filter_taxa(Desulfobacterota, function(x) sum(x) >0.01,
 #can now plot the results. First tell R to make a pdf version.
 pdf("./Desulfobacterota.pdf")
 plot_bar(Desulfobacterota, fill="Genus")
-dev.off()                                     
+dev.off()  
 
+#perform NMDS
+ps.prop <- transform_sample_counts(ps, function(otu) otu/sum(otu))
+pdf("./caddis_NMDS.pdf")
+plot_ordination(ps.prop, ord.nmds.bray, color="Type", title="Bray NMDS")
 
