@@ -73,6 +73,9 @@ caddis_toy_meta<-read.csv("./caddis_toy_meta.csv", header=TRUE)
 #creates another data frame needed for making the phyloseq object
 samdf <- data.frame(Subject=subject, Type=caddis_toy_meta$TYPE, Color=caddis_toy_meta$COLOR)
 
+#added 06242021
+rownames(samdf) <- samples.out
+
 #construcct the phyloseq object, a good master file for doing microbiome analyses.
 ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), 
                sample_data(samdf), 
