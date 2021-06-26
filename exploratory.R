@@ -1,11 +1,11 @@
+#a collection of R commands for creating/manipulating phyloseq objects. 
+library(phyloseq)
+library(tidyverse)
 caddis_meta<-read.csv("./caddis_meta.csv")
 #for looking subset data, n=5 samples per group (fly, net, retreat, swab)
 NAMES<-length(caddis_meta$Sample_NAME[c(1:5, 30:34, 50:54, 80:84)])
 
 samdf <- data.frame(Subject=caddis_meta$Sample_NAME, Type=caddis_meta$Type, Color=caddis_meta$Color, Lty=caddis_meta$lty)
-
-library(phyloseq)
-library(tidyverse)
 ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), 
                sample_data(samdf), 
                tax_table(taxa))
