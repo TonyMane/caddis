@@ -27,3 +27,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7074884/
 
 #Leaf Litter Effects on the Active Gut Microbiome of A Freshwater Shredding Caddisfly
 https://www.proquest.com/openview/735c125792278ebbe96ec276e7b7bc29/1?pq-origsite=gscholar&cbl=18750&diss=y
+
+#Annotated Draft Genomes of Two Caddisfly Species Plectrocnemia conspersa CURTIS and Hydropsyche tenuis NAVAS (Insecta: Trichoptera)
+https://academic.oup.com/gbe/article/11/12/3445/5644342?login=true
