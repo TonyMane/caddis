@@ -14,3 +14,5 @@ write.table(otab, "dada_table.txt",quote=FALSE,sep="\t")
 #To make a phylogenetic tree in a phyloseq obect.
 random_tree = rtree(ntaxa(physeq), rooted=TRUE, tip.label=taxa_names(physeq))
 
+ordu = ordinate(ps, "PCoA", "unifrac", weighted=TRUE)
+
