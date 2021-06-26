@@ -27,3 +27,7 @@ plot_ordination(ps, ordu, color="Type")
 
 #evaluate differential contributions of taxa that are statisitically significant
 ps.prop <- transform_sample_counts(ps, function(otu) otu/sum(otu))
+
+#anosim for testing for differneces between sample type 
+ps_anosim<-anosim(distance(ps, "unifrac", weighted=FALSE), caddis_meta$TYPE)
+                                  
