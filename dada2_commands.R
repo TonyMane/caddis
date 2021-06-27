@@ -1,8 +1,7 @@
 #Commands used for short example with 'toy' data-set from caddis fly study. Portions that are not commmented out (with #) can be copied/pasted directly on stewart lab
 #osx R terminal. Notes, actual terminal view are the 'R-introduction.pptx' file.
 
-getwd, same as pwd in bash
-```R
+#getwd, same as pwd in bash
 getwd()
 #setwd, same as change directory or cd in bash.
 setwd("/Users/stewartlab/Desktop/")
