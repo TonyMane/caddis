@@ -23,7 +23,7 @@ Desulfobacterota_little<-prune_samples(NAMES, Desulfobacterota)
 Desulfobacterota_2<-filter_taxa(Desulfobacterota_little, function(x) sum(x) >0.01, TRUE)
 plot_bar(Desulfobacterota_2, fill="Genus")
 
-                                #commands for converting dada2-like ASV/sample files to ASV/sample text file and ASV fasta file.
+#commands for converting dada2-like ASV/sample files to ASV/sample text file and ASV fasta file.
 #taken from https://github.com/benjjneb/dada2/issues/48, comment by jeffkimbrel (go Beavs!).
 library(phyloseq)
 seqs <- colnames(seqtab)
@@ -55,4 +55,14 @@ ps.prop <- transform_sample_counts(ps, function(otu) otu/sum(otu))
 
 #anosim for testing for differneces between sample type 
 ps_anosim<-anosim(distance(ps, "unifrac", weighted=FALSE), caddis_meta$TYPE)
+
+install.packages("remotes")
+remotes::install_github("Russel88/MicEco")
+library(MicEco)
+library(phyloseq)
+library(tidyverse)
+source("./caddis06212021.RDS")
+pdf("./caddis_total_venn.pdf")
+ps_venn1<-ps_venn(ps, "Type")
+dev.off()
                                 
