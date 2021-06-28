@@ -10,3 +10,7 @@ exploratory.R; commands tony likes to use a lot but doesn't want to shifts throu
 
 manuscripts.txt; a collection of manuscript web-links of interest.
 
+```
+load(tidyverse)
+```
+
