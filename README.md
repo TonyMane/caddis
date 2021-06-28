@@ -9,3 +9,7 @@ dada2_commands.R; commands used to process amplicon sequencing through dada2 (v1
 exploratory.R; commands tony likes to use a lot but doesn't want to shifts through other stuff cuz he can't remember stuff.
 
 manuscripts.txt; a collection of manuscript web-links of interest.
+
+```
+echo "hello world"
+```
