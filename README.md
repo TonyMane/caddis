@@ -2,6 +2,8 @@ Saved R files (rds files), workflows, manuscripts of interest.
 
 caddis_toy_meta.csv; subset of meta data from 12 samples, used as small dada2 tutorial for Catie Williams-REU.
 
+caddis_meta.csv; file meta-data (sample names, sample types) for all 95 samples from April-2021 time sampling.
+
 caddis-stripped-06262021.RDS; R session containing the final phyloseq object for n=95 samples from April-2021 time sampling. Created using dada2/phyloseq default settings.
 
 dada2_to_phyloseq.md; commands used to process amplicon sequencing through dada2 (v1.16; latest as of May 2021). For the workflow, just used 12 samples
