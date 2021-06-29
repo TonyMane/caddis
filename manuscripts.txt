@@ -30,3 +30,6 @@ https://www.proquest.com/openview/735c125792278ebbe96ec276e7b7bc29/1?pq-origsite
 
 #Annotated Draft Genomes of Two Caddisfly Species Plectrocnemia conspersa CURTIS and Hydropsyche tenuis NAVAS (Insecta: Trichoptera)
 https://academic.oup.com/gbe/article/11/12/3445/5644342?login=true
+
+#Microbial community assembly in wild populations of the fruit fly Drosophila melanogaster
+https://www.nature.com/articles/s41396-017-0020-x.pdf
