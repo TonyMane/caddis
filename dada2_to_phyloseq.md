@@ -1,14 +1,21 @@
 This file (dada2_to_phyloseq.md) is a workflow that utilizes dada2 for cleaning and producing approximate sequence variants from 16S rRNA gene amplicons. 
-Portions in grey can be copied and pasted (after the '>' directly into R). Note, the 'Caddis_Toy' example is just an example directory with 12 samples. Its been truncated from 96 in the original file for use as an example to work through dada2 in a relatively quick fashion. However, the following processing steps can also be used for processing new data as it comes in. 
+Portions in grey can be copied and pasted (after the '>') directly into the R console. 
 
-getwd, same as pwd in bash
+The workflow assumes no prior knowledge of R. A few comments have been added that hopefully clarify what is happening.
+The samples (and their directory) are associated with n=12 amplicon sequences collected in April 2021. This is a subset of the original (n=95) 
+sequences collected, and is meant to runner in quicker/faster fashion. However, the below commands can be run on any new data. 
+
+So, lets assume you have opened up an R-terminal. Its good to see whhat your current working directory is. In a unix terminal you would type 'pwd' (print working
+directory). In R, the quivalent is 'getwd()'. Type this in and see what happens.
 
 ```
 >getwd()
 "/Users/stewartlab/"
 ```
-We need to change into the directory with all the information.
-Can do this by setting a new directory path with the setwd command.
+Your current directoy is "/Users/stewartlab/".
+
+We need to move into the directory with all the sequence data.
+We can do this by setting a new directory path with the setwd command.
 This is the same as the change directory, or cd command.
 
 ```
