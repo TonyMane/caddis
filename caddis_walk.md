@@ -102,4 +102,9 @@ sample_data() Sample Data:       [ 95 samples by 4 sample variables ]
 tax_table()   Taxonomy Table:    [ 733 taxa by 6 taxonomic ranks ]
 phy_tree()    Phylogenetic Tree: [ 733 tips and 732 internal nodes ]
 ```
+We can now do a simple a test ('Multiple testing of taxa abundance according to sample type')
+with the 'mt'-function in phyloseq.
 
+```
+>res = mt(ps.rel, "Type", method="fdr", test="f", B=300)
+```
