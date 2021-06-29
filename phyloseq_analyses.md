@@ -1,14 +1,18 @@
-#a collection of R commands for creating/manipulating phyloseq objects. 
+A collection of analyses that is by no means comprehensive for analyzing amplicon data with phyloseq.
+First load all required packages (tidyverse, phyloseq), read in meta-data (caddis_meta.tsv) and phyloseq object (caddis-stripped-0626201.RDS has this saved). 
+```
 library(phyloseq)
 library(tidyverse)
-caddis_meta<-read.csv("./caddis_meta.csv")
-#for looking subset data, n=5 samples per group (fly, net, retreat, swab)
-NAMES<-length(caddis_meta$Sample_NAME[c(1:5, 30:34, 50:54, 80:84)])
+caddis_meta<-read.csv("caddis_meta.csv")
+load("caddis-stripped-06262021.RDS")
+```
+The .RDS file should have an object called ps. Check to make sure this there with the objects function.
 
-samdf <- data.frame(Subject=caddis_meta$Sample_NAME, Type=caddis_meta$Type, Color=caddis_meta$Color, Lty=caddis_meta$lty)
-ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), 
-               sample_data(samdf), 
-               tax_table(taxa))
+```
+objects()
+```
+It should print a list of files to your console.
+We can do A LOT with phyloseq objects. I'll just go through a few quick exploratory analyses.
 
 #produce relative abundance matrix
 ps_Phylum_rel<-transform_sample_counts(ps_Phylum, function(OTU) OTU/sum(OTU)*100)
