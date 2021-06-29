@@ -29,8 +29,11 @@ First things first, lets load dada2 and tidyverse, a package that is required fo
 
 ```
 >library(dada2)
->library(tidyverse)
+Loading required package: Rcpp
+> library(tidyverse)
 ```
+
+Note, you may or may not see some information pop-up on the screen when loading dada2 or tidyverse (like the version), or 'Loading required package: Rcpp'/.
 
 We need to tell dada2 where to find our data. Our current working directory has this. 
 
