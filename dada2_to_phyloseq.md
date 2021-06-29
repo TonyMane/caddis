@@ -30,7 +30,7 @@ First things first, lets load dada2 and tidyverse, a package that is required fo
 ```
 >library(dada2)
 Loading required package: Rcpp
-> library(tidyverse)
+>library(tidyverse)
 ```
 
 Note, you may or may not see some information pop-up on the screen when loading dada2 or tidyverse (like the version), or 'Loading required package: Rcpp'/.
