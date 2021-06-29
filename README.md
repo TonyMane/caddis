@@ -8,7 +8,7 @@ dada2_to_phyloseq.md; commands used to process amplicon sequencing through dada2
 versus all (n=95) as this would take ~12 hours total to run through Desktop mac-osx.
 Little to no deviation in commands from the defaults used in the dada2 tutorial (https://benjjneb.github.io/dada2/tutorial.html), just removed error plotting portions, read tracking steps.
 
-exploratory.R; commands tony likes to use a lot but doesn't want to shifts through other stuff cuz he can't remember stuff.
+exploratory.R; commands tony uses a lot but doesn't want to shifts through other stuff cuz he can't remember stuff.
 
 manuscripts.txt; a collection of manuscript web-links of interest.
 
