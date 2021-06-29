@@ -108,3 +108,15 @@ with the 'mt'-function in phyloseq.
 ```
 >res = mt(ps.rel, "Type", method="fdr", test="f", B=300)
 ```
+And now lets look at a part of the output.
+
+```
+> head(res)
+         index teststat        rawp      adjp      plower  Kingdom           Phylum               Class               Order              Family         Genus        fdr
+Seq41165   660 176.7971 0.003333333 0.4833333 0.003333333 Bacteria Actinobacteriota      Actinobacteria Propionibacteriales     Nocardioidaceae  Nocardioides 0.01628889
+Seq24891   385 146.0680 0.003333333 0.4833333 0.003333333 Bacteria     Bacteroidota         Bacteroidia       Bacteroidales       Rikenellaceae  Mucinivorans 0.01628889
+Seq7488    125 142.6523 0.003333333 0.4833333 0.003333333 Bacteria   Proteobacteria Gammaproteobacteria     Burkholderiales    Burkholderiaceae   Limnobacter 0.01628889
+Seq39136   627 125.4457 0.003333333 0.4833333 0.003333333 Bacteria     Bacteroidota         Bacteroidia       Bacteroidales       Rikenellaceae     Alistipes 0.01628889
+Seq16783   249 119.0157 0.003333333 0.4833333 0.003333333 Bacteria Desulfobacterota    Desulfovibrionia  Desulfovibrionales Desulfovibrionaceae Desulfovibrio 0.01628889
+Seq8512    146 115.5505 0.003333333 0.4833333 0.003333333 Bacteria Deferribacterota     Deferribacteres   Deferribacterales  Deferribacteraceae Mucispirillum 0.01628889
+```
