@@ -5,7 +5,12 @@ getwd, same as pwd in bash
 
 ```
 >getwd()
-setwd, same as change directory or cd in bash.
+"/Users/stewartlab/"
+```
+We need to change into the directory with all the information.
+Can do this by setting a new directory path with the setwd command.
+This is the same as the change directory, or cd command.
+
 >setwd("/Users/stewartlab/Desktop/")
 ```
 
@@ -15,10 +20,14 @@ list.files, same as list, or ls in bash.
 list.files()
 ```
 
+```
 setwd("./Caddis_Toy/")
 list.files()
+```
 
-#load dada2
+load dada2
+
+
 library(dada2)
 
 #load tidyverse
