@@ -81,7 +81,7 @@ The actual ASV production, where forward and reverse reads are merged.
 ```
 mergers <- mergePairs(dadaFs, filtFs, dadaRs, filtRs, verbose=TRUE)
 ```
-Make an asv/sample table
+Make an asv/sample table.
 ```
 seqtab <- makeSequenceTable(mergers)
 ```
@@ -91,7 +91,7 @@ seqtab.nochim <- removeBimeraDenovo(seqtab, method="consensus", multithread=TRUE
 taxa <- assignTaxonomy(seqtab.nochim, "/Users/stewartlab/Desktop/silva_nr99_v138.1_train_set.fa.gz")
 ```
 
-Load some more packages needed for making a phyloseq object
+Load some more packages needed for making a phyloseq object.
 
 ```
 library(phyloseq); packageVersion("phyloseq")
@@ -99,7 +99,7 @@ library(Biostrings); packageVersion("Biostrings")
 library(ggplot2); packageVersion("ggplot2")
 ```
 
-get samples from table
+Get samples from table.
 
 ```
 samples.out <- rownames(seqtab.nochim) 
@@ -117,23 +117,23 @@ Creates another data frame needed for making the phyloseq object
 ```
 samdf <- data.frame(Subject=subject, Type=caddis_toy_meta$TYPE, Color=caddis_toy_meta$COLOR)
 ```
-
 Change row names.
 ```
 rownames(samdf) <- samples.out
 ```
-
 And finally, we can make the phyloseq object.
-
 ```
 ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), sample_data(samdf), tax_table(taxa))
 ```
-These next commands/packages clean up the phyloseq object
+These next commands/packages clean up the phyloseq object.
 ```
 dna <- Biostrings::DNAStringSet(taxa_names(ps))
 names(dna) <- taxa_names(ps)
 ps <- merge_phyloseq(ps, dna)
 taxa_names(ps) <- paste0("ASV", seq(ntaxa(ps)))
 ```
+Might want to save
+
 OK, thats it! You should, at this point, have a phyloseq object!!!
+
 
