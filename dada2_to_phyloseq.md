@@ -1,5 +1,5 @@
-Commands used for short example with 'toy' data-set from caddis fly study. Portions that are not commmented out (with #) can be copied/pasted directly on stewart lab
-osx R terminal. Notes, actual terminal view are the 'R-introduction.pptx' file.
+This file (dada2_to_phyloseq.md) is a workflow that utilizes dada2 for cleaning and producing approximate sequence variants from 16S rRNA gene amplicons. 
+Portions in grey can be copied and pasted (after the '>' directly into R). Note, the 'Caddis_Toy' example is just an example directory with 12 samples. Its been truncated from 96 in the original file for use as an example to work through dada2 in a relatively quick fashion. However, the following processing steps can also be used for processing new data as it comes in. 
 
 getwd, same as pwd in bash
 
@@ -11,29 +11,23 @@ We need to change into the directory with all the information.
 Can do this by setting a new directory path with the setwd command.
 This is the same as the change directory, or cd command.
 
->setwd("/Users/stewartlab/Desktop/")
+```
+>setwd("/Users/stewartlab/Desktop/Caddis_Toy/")
 ```
 
-list.files, same as list, or ls in bash.
+
+Now that we are in the right directory, we can load dada2 and begin quality filtering of the amplicons. The steps used in this workflow are essentially the same
+as those from the original dada2 tutorial (v1.16). However, i have skipped over some of the steps regarding plotting error rates. 
+First things first, lets load dada2 and tidyverse, a package that is required for other downstream steps.
 
 ```
-list.files()
+>library(dada2)
+>library(tidyverse)
 ```
 
-```
-setwd("./Caddis_Toy/")
-list.files()
-```
+We need to tell dada2 where to find our data. Our current working directory has this. 
 
-load dada2
-
-
-library(dada2)
-
-#load tidyverse
-library(tidyverse)
-
-path<-"./"
+>path<-"./"
 
 #assign forward/reverse read files
 fnFs <- sort(list.files(path, pattern="_R1_001.fastq", full.names = TRUE))
