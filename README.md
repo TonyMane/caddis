@@ -19,6 +19,8 @@ pasted into terminal, press enter, see the output. The output of this tutorial i
 
 manuscripts.txt; a collection of manuscript web-links of interest.
 
+bash07012021.R; a simple R script for processing amplicons using dada2 in one command with defaults. 
+
 ```
 echo "hello world"
 ```
