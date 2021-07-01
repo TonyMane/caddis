@@ -177,3 +177,12 @@ The 'wc -l' command will directly give us just line count information:
 wc -l SRR_Acc_List.txt 
       19 SRR_Acc_List.txt
 ```
+Another useful command is grep (Global regular expression print). We can use it for a lot of functions (pattern identification, counting). Could probably teach
+a full course on grep. Here is just an example. Lets say we want to make sure a specific SRA ID is located in our list (example, SRR7135424). We can use grep
+to see if its there. Basically, we call grep, give it a pattern to find, and a file to find it in.
+
+```
+grep "SRR7135424" SRR_Acc_List.txt
+SRR7135424
+```
+The result prints to standard output. This is good. Its there.
