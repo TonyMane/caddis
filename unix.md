@@ -146,3 +146,26 @@ SRR7135437
 SRR7135438
 SRR7135439
 ```
+If we wanted to, we could also just look at the first 10 lines of the file, or the head, using the head command
+```
+head SRR_Acc_List.txt
+SRR7135420
+SRR7135421
+SRR7135422
+SRR7135423
+SRR7135424
+SRR7135425
+SRR7135426
+SRR7135427
+SRR7135428
+SRR7135429
+```
+This command is more useful for bigger files where we just want to get a sense of the contents (not uncommon with some informatics like tasks).
+Actually, this is an interesting file that was downloaded from the NCBI Run selector (https://www.ncbi.nlm.nih.gov/Traces/study/?). It corresponds to BioProject PRJNA470550 (Assessing Cat Flea Microbiomes in Northern and Southern California by 16S rRNA Next-Generation Sequencing). It contains the names, starting with SRR, of all the fastq files associated with the 16S rRNA gene amplicons produced from this study. We'll go through how this file was created later.
+We can get some sort of generic information about the file, like how many lines it has. Using the line count function 'wc'.
+
+```
+wc SRR_Acc_List.txt     
+      19      20     219 SRR_Acc_List.txt
+```
+This tells us the file has 19 lines (20 including the file name), and it is 219 bytes in size.
