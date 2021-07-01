@@ -14,15 +14,31 @@ objects()
 It should print a list of files to your console.
 We can do A LOT with phyloseq objects. I'll just go through a few quick exploratory analyses.
 
-#produce relative abundance matrix
+produce relative abundance matrix
+
+```
 ps_Phylum_rel<-transform_sample_counts(ps_Phylum, function(OTU) OTU/sum(OTU)*100)
+```
 
-#collapse matrix by Genus abundance                                       
+collapse matrix by Genus abundance                                       
+```
 ps_Genus<-tax_glom(ps, "Genus", NArm=TRUE)
+```
 
-#for generic plotting of taxa abundances
+For generic plotting of taxa abundances, use transform sample function.
+
+```
 ps_genus_rel= transform_sample_counts(ps_Genus, function(x) x / sum(x) )
+```
+Now, lets look at one phyloum. Desulfobacterota.
+
+```
 Desulfobacterota <- subset_taxa(ps_genus_rel, Phylum =="Desulfobacterota")
+``` 
+Rather than look at all samples (n=95), we could look at a subset (n=20), four from each retreat type.
+
+NAMES<-c("CC1-FLY1", "CC1-FLY2", "CC1-FLY3", "CC1-FLY4", "CC1-FLY5", "CC1-NET1", "CC1-NET2", "CC1-NET3", "CC1-NET4", "CC1-NET5", "CC1-RETR1", "CC1-RETR2", "CC1-RETR3", "CC1-RETR4", "CC1-RETR5", "CC1-SWAB1", "CC1-SWAB2", "CC1-SWAB3", "CC1-SWAB4", "CC1-SWAB5")
+
 Desulfobacterota_little<-prune_samples(NAMES, Desulfobacterota)
 Desulfobacterota_2<-filter_taxa(Desulfobacterota_little, function(x) sum(x) >0.01, TRUE)
 plot_bar(Desulfobacterota_2, fill="Genus")
