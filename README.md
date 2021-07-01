@@ -14,6 +14,9 @@ exploratory.R; commands tony uses a lot but doesn't want to shifts through other
 
 manuscripts.txt; a collection of manuscript web-links of interest.
 
+tutorial_unix.md; a brief overview/tutorial of unix (or unix-like) commands for working on an osx terminal. NOTE, line of the grey area can be directly copied and 
+pasted into terminal, press enter, see the output. The output of this tutorial is from Tony's computer.
+
 ```
 echo "hello world"
 ```
