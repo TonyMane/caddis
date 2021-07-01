@@ -185,4 +185,8 @@ to see if its there. Basically, we call grep, give it a pattern to find, and a f
 grep "SRR7135424" SRR_Acc_List.txt
 SRR7135424
 ```
-The result prints to standard output. This is good. Its there.
+The result prints to standard output. This is good. Its there. We can also use the count flag (-c) to see how many time it is present.
+```
+grep -c "SRR7135424" SRR_Acc_List.txt      
+1
+```
