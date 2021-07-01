@@ -169,3 +169,11 @@ wc SRR_Acc_List.txt
       19      20     219 SRR_Acc_List.txt
 ```
 This tells us the file has 19 lines (20 including the file name), and it is 219 bytes in size.
+This might seem trivial, but it is good to know that how many lines are in file, as this likely corresponds to the number of unique samples 
+associated with the study (this is not always true, but in this case it likely is). 
+The 'wc -l' command will directly give us just line count information:
+
+```
+wc -l SRR_Acc_List.txt 
+      19 SRR_Acc_List.txt
+```
