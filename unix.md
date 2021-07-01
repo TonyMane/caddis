@@ -74,6 +74,75 @@ drwxr-xr-x    2 anthonyd.bertagnolli  staff      64 Jun 17 15:58 phylophlan_data
 -rw-r--r--@   1 anthonyd.bertagnolli  staff     162 Jun 29 15:16 ~$rtagnolli_Eval_v1_FJS_2021.docx
 ```
 
-This is a bit more informative. We now get information on file type (directory indicated by 'drwxr-xr-x', or file -rw-r--r--'), ownership, size, and date created. 
-On the left hand side we see 'drwxr-xr-x', followed by more information. The drw-, or first 3 letters, tells us this file is a directory. 
-We could move into it (as we did to the Desktop).
+This is a bit more informative. We now get information on file type (directory indicated by 'drwxr-xr-x', or file '-rw-r--r--'), ownership, size, and date created. Probably the most important piece of information is column 5, the size column, in bytes. We can see this in a more readable format by doing list files human readable (ls -lh).
+```
+ls -lh
+total 664
+drwxr-xr-x    4 anthonyd.bertagnolli  staff   128B Jun 20 19:44 4226-261086836
+drwxr-xr-x   59 anthonyd.bertagnolli  staff   1.8K May 21 14:59 CO_papers
+drwxr-xr-x    6 anthonyd.bertagnolli  staff   192B Jun  1 14:27 CO_proposal
+drwxr-xr-x   27 anthonyd.bertagnolli  staff   864B Jun 22 02:02 Caddis_Toy
+drwxr-xr-x   28 anthonyd.bertagnolli  staff   896B Jun 24 16:13 Caddis_Toy_gz
+-rw-r--r--@   1 anthonyd.bertagnolli  staff    16K Jun 30 13:51 Collection_localities.txt
+-rw-r--r--    1 anthonyd.bertagnolli  staff   597B Jun 18 23:57 DRIVE.txt
+drwxr-xr-x   73 anthonyd.bertagnolli  staff   2.3K Apr 23 17:04 FIXED
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   9.8K Jun 30 14:37 Fly-Microbiome.xlsx
+-rw-r--r--    1 anthonyd.bertagnolli  staff   155B Jun 19 02:13 MUYIMPORTANTE.txt
+drwxr-xr-x    7 anthonyd.bertagnolli  staff   224B May 25 01:33 MicrobeMiseq
+drwxr-xr-x    5 anthonyd.bertagnolli  staff   160B Jun 20 19:14 My EndNote Library.Data
+drwxr-xr-x   30 anthonyd.bertagnolli  staff   960B Feb  9 16:45 OMZ-Pacbio
+drwxr-xr-x   38 anthonyd.bertagnolli  staff   1.2K Jun  5 18:44 REVIEWS
+drwxr-xr-x@  13 anthonyd.bertagnolli  staff   416B Jun  3 00:12 R_tutorials-master
+-rw-r--r--@   1 anthonyd.bertagnolli  staff    31K Jun 27 15:34 Research Manuscript (Draft)_FJS.docx
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   219B Jun 30 19:45 SRR_Acc_List (1).txt
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   1.7K Jun 29 16:44 SRR_Acc_List.txt
+-rw-r--r--@   1 anthonyd.bertagnolli  staff    15K Jun 21 13:50 StewartCFLYPlate1.xlsx
+-rw-r--r--@   1 anthonyd.bertagnolli  staff    13K Jun 21 13:51 StewartCFLYPlate2.xlsx
+drwxr-xr-x   66 anthonyd.bertagnolli  staff   2.1K Jun 30 22:11 WORKING
+-r--------@   1 anthonyd.bertagnolli  staff   1.7K Jun 18 19:24 amplicon_key.pem
+drwxr-xr-x@   4 anthonyd.bertagnolli  staff   128B May 20 22:57 astro_bio
+-rw-r--r--    1 anthonyd.bertagnolli  staff    46B Jun 17 21:48 bacphile.sh
+-rw-r--r--@   1 anthonyd.bertagnolli  staff    13B Jun 30 19:44 bioproject_result.txt
+drwxr-xr-x   92 anthonyd.bertagnolli  staff   2.9K Jun 29 16:36 caddis
+drwxr-xr-x    8 anthonyd.bertagnolli  staff   256B May 25 01:45 chab-microbial-ecology
+drwxr-xr-x    9 anthonyd.bertagnolli  staff   288B Jun 30 15:43 enaBrowserTools
+drwxrwxr-x@   9 anthonyd.bertagnolli  staff   288B Apr 11  2016 examples_and_exercises
+-rw-r--r--    1 anthonyd.bertagnolli  staff   224B Jun 29 22:01 fastq.sh
+drwxr-xr-x   12 anthonyd.bertagnolli  staff   384B May 21 14:59 for_CO_proposal
+drwxr-xr-x   25 anthonyd.bertagnolli  staff   800B May 29 15:21 hypocolypse
+drwxr-xr-x  373 anthonyd.bertagnolli  staff    12K Jun 17 15:56 input_metagenomic
+drwxr-xr-x   18 anthonyd.bertagnolli  staff   576B Jun 17 17:07 phylophlan
+drwxr-xr-x    2 anthonyd.bertagnolli  staff    64B Jun 17 15:58 phylophlan_databases
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   179K Jun 22 23:11 test.csv
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   165B Jun 22 14:53 ~$210623_labUpdate-caddisfly-AB-AM.pptx
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   165B Jun 30 14:31 ~$Fly-Microbiome.xlsx
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   165B Jun 21 00:08 ~$R-introduction.pptx
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   165B Jun 22 16:08 ~$lab-meeting-slides-06222021.pptx
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   162B Jun 30 11:59 ~$rtagnolli_Eval_v1_ADB.docx
+-rw-r--r--@   1 anthonyd.bertagnolli  staff   162B Jun 29 15:16 ~$rtagnolli_Eval_v1_FJS_2021.docx
+```
+Some of these files need to opened and closed using a specific program with graphical user interface (GUI). Example, pptx (power point) and xlsx (excel spreadsheet) need Microsoft. However, files with .txt extensions (for flat text files) or .sh (a bash script, or file), can be looked at on the command line.
+Perhaps the easiest way to do this is to concatenate the contents with the 'cat' command. Lets see whats in SRR_Acc_List.txt
+```
+cat SRR_Acc_List.txt
+SRR7135420
+SRR7135421
+SRR7135422
+SRR7135423
+SRR7135424
+SRR7135425
+SRR7135426
+SRR7135427
+SRR7135428
+SRR7135429
+SRR7135430
+SRR7135431
+SRR7135432
+SRR7135433
+SRR7135434
+SRR7135435
+SRR7135436
+SRR7135437
+SRR7135438
+SRR7135439
+```
