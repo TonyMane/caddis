@@ -1,7 +1,7 @@
 Bash, fastq-dump, and R commmands for preliminary insect study.
 First portion describes how to download fastq files associated with an amplicon run (in this case 16S rRNA gene amplicon, but could be anything really) from NCBI.
 
-Second portion describes combining this data (from NCBI) with your own data (in this case, caddis fly microbiomes from Cherry Creek collected in April, but again, could be anything).
+Second portion describes combining this data (from NCBI) with your own data (in this case, caddis fly microbiomes from Cherry Creek collected in April).
 
 Third portion describes running all this data through DADA2.
 
@@ -86,9 +86,29 @@ seqtab <- makeSequenceTable(mergers)
 ```
 Assign taxonomy to the ASVs. NOTE, download the database (silva_nr_v132_train_set.fa.gz) from
 https://zenodo.org/record/1172783/files/silva_nr_v132_train_set.fa.gz?download=1
-This
+This will take 30-45 minutes (again, on my MacBook Pro, 2.2 GHz Quad-Core Intel Core i7, 16 GB 1600 MHz DDR3).
 ```
 taxa <- assignTaxonomy(seqtab.nochim, "silva_nr_v132_train_set.fa.gz", multithread=TRUE)
 ```
-
-
+Download the meta-data file "insectcompare_07072021.csv" (in this repository).
+Read it into R, we'll call it 'meta_data'. We'll need this to make a phyloseq object.
+```
+meta_data<-read.csv("insectcompare_07072021.csv")
+```
+Load some more packages.
+```
+library(phyloseq); packageVersion("phyloseq")
+library(Biostrings); packageVersion("Biostrings")
+library(ggplot2); packageVersion("ggplot2")
+```
+Now lets extract some information from the dada2 files and our meta-data, and make a phyloseq object.
+```
+samples.out <- rownames(seqtab.nochim)
+subject <- sapply(strsplit(samples.out, "D"), `[`, 1)
+subject <- substr(subject,2,999)
+samdf <- data.frame(Subject=subject, Insect=meta_data$Insect, Color=meta_data$Color)
+rownames(samdf) <- samples.out
+ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), sample_data(samdf), tax_table(taxa))
+```
+OK, now we have the phyloseq object, but we need to modify this file. The ASVs are listed as DNA strings. 
+    
