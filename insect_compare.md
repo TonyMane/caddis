@@ -84,8 +84,11 @@ Remove chimeras.
 ```
 seqtab <- makeSequenceTable(mergers)
 ```
-Assign taxonomy to the ASVs.
+Assign taxonomy to the ASVs. NOTE, download the database (silva_nr_v132_train_set.fa.gz) from
+https://zenodo.org/record/1172783/files/silva_nr_v132_train_set.fa.gz?download=1
+This
 ```
-taxa <- assignTaxonomy(seqtab.nochim, silva_nr_v132_train_set.fa.gz", multithread=TRUE)
+taxa <- assignTaxonomy(seqtab.nochim, "silva_nr_v132_train_set.fa.gz", multithread=TRUE)
 ```
+
 
