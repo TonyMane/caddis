@@ -50,4 +50,31 @@ out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, truncLen=c(240,160),
               maxN=0, maxEE=c(2,2), truncQ=2, rm.phix=TRUE,
               compress=TRUE, multithread=TRUE)
 ```
+Learn the error rates. Both of the below takes about 30-45 minutes (on my MacBook Pro, 2.2 GHz Quad-Core Intel Core i7, 16 GB 1600 MHz DDR3).
+```
+errF <- learnErrors(filtFs, multithread=TRUE)
+errR <- learnErrors(filtRs, multithread=TRUE)
+```
+Apply the core sample inference algorithims. This takes about 30 minutes both both forward (dadaF) and reverse (dadaR).
+```
+dadaFs <- dada(filtFs, err=errF, multithread=TRUE)
+dadaRs <- dada(filtRs, err=errR, multithread=TRUE)
+```
+Now merge paired ends to make approximate sequence variants (ASVs).
+```
+mergers <- mergePairs(dadaFs, filtFs, dadaRs, filtRs, verbose=TRUE)
+```
+Now we can make a sequence table.
+
+```
+seqtab <- makeSequenceTable(mergers)
+```
+Remove chimeras.
+```
+seqtab <- makeSequenceTable(mergers)
+```
+Assign taxonomy to the ASVs.
+```
+taxa <- assignTaxonomy(seqtab.nochim, silva_nr_v132_train_set.fa.gz", multithread=TRUE)
+```
 
