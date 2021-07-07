@@ -117,3 +117,8 @@ names(dna) <- taxa_names(ps)
 ps <- merge_phyloseq(ps, dna)
 taxa_names(ps) <- paste0("ASV", seq(ntaxa(ps)))
 ```
+Lets look at the number of sequences per sample.
+
+```
+colSums(t(otu_table(ps)))
+```
