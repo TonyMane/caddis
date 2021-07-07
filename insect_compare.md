@@ -122,3 +122,4 @@ Lets look at the number of sequences per sample.
 ```
 colSums(t(otu_table(ps)))
 ```
+We can scroll through this and see there is a lot of variability.  
