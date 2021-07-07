@@ -32,4 +32,22 @@ There should be 90 individual samples. But check this:
 ls -l | grep -c "1.fastq.gz"
 90
 ```
-Ok, looks good. We can now run the data through dada2. 
+Ok, looks good. We can now run the data through dada2. The below lines, 9, should run quickly.
+```
+library(dada2); packageVersion("dada2")
+path <- "second_run"
+fnFs <- sort(list.files(path, pattern="_1.fastq.gz")
+fnRs <- sort(list.files(path, pattern="_2.fastq.gz")
+sample.names <- sapply(strsplit(basename(fnFs), "_"), `[`, 1)
+filtFs <- file.path(path, "filtered", paste0(sample.names, "_F_filt.fastq.gz"))
+filtRs <- file.path(path, "filtered", paste0(sample.names, "_R_filt.fastq.gz"))
+names(filtFs) <- sample.names
+names(filtRs) <- sample.names
+```
+This line, Trimming and Filtering, will take a bit longer (~20 minutes).
+```
+out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, truncLen=c(240,160),
+              maxN=0, maxEE=c(2,2), truncQ=2, rm.phix=TRUE,
+              compress=TRUE, multithread=TRUE)
+```
+
