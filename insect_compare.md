@@ -1,4 +1,12 @@
 Bash, fastq-dump, and R commmands for preliminary insect study.
+First portion describes how to download fastq files associated with an amplicon run (in this case 16S rRNA gene amplicon, but could be anything really) from NCBI.
+
+Second portion describes combining this data (from NCBI) with your own data (in this case, caddis fly microbiomes from Cherry Creek collected in April, but again, could be anything).
+
+Third portion describes running all this data through DADA2.
+
+Fourth portion describes doing some preliminary alpha/beta diversity assesments.
+
 We found four studies utilizing Earth Microbiome oligos that could be used for direct comparison with our study.
 The four study Bioproject IDs are PRJEB40063, PRJNA547724, PRJNA578869, PRJNA589709. More information on
 DOI numbers/publication names can be found in 'Fly-Microbiome-07062021.csv'. For each of the four BioProject IDs,
@@ -18,7 +26,7 @@ Once we have all the public fastq files from the BioProjects, make a new directo
 mkdir second_run
 mv *gz second_run
 ```
-Also include all the Fly samples from round one Cherry Creek.
+Also include all the Fly samples from sampling trip one at Cherry Creek.
 ```
 cp /Users/anthonyd.bertagnolli/Desktop/caddis/FLY_ONLY/*gz ./second_run
 ```
@@ -27,9 +35,12 @@ Note, need to change the extensions from our data from 'L001_R1_001' and 'L001_R
 rename "s/L001_R1_001/1/" ./second_run/*
 rename "s/L001_R2_001/2/" ./second_run/*
 ```
-There should be 90 individual samples. But check this:
+There should be 90 individual samples. But check this by counting the forward and reverse reads.
 ```
 ls -l | grep -c "1.fastq.gz"
+90
+
+ls -l | grep -c "2.fastq.gz"
 90
 ```
 Ok, looks good. We can now run the data through dada2. The below lines, 9, should run quickly.
