@@ -185,3 +185,8 @@ ps2.phylumGlom.rel<- transform_sample_counts(ps2.phylumGlom, function(x) x / sum
 ```
 ps2.phylumGlom.rel.fr = filter_taxa(ps2.phylumGlom.rel, function(x) mean(x) > 1e-3, TRUE)
 ```
+The 'plot_bar' function is useful for plotting taxa distributions. Rather than give the column names weird SRA names, i exported the sample-SRA names and 
+meta-data from R, and added new sample samples to the existing matrix.
+```
+little2<-read.csv("InsectCompare_07082021.csv")
+```
