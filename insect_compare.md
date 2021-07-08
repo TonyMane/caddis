@@ -190,3 +190,8 @@ meta-data from R, and added new sample samples to the existing matrix.
 ```
 little2<-read.csv("InsectCompare_07082021.csv")
 ```
+Now change the names of the phyloseq object.
+
+```
+sample_names(ps2.phylumGlom.rel.fr) = little2$NameMod
+```
