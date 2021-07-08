@@ -160,3 +160,5 @@ pdf("./beta.pdf")
 plot_ordination(ps.prop, ord.nmds.bray, color="Insect", title="Bray NMDS")
 dev.off()
 ```
+Look at the result. It would look like there is a lot variation that appears insect specific. The Fruit fly and crane fly populations look especially unique.
+Interestingly, the ordinations between the MT-Cherry and Italian caddis flys look less distance from one another, perhaps indicating that these populatuions harbor similar microbiomes. 
