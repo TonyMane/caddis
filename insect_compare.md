@@ -162,3 +162,18 @@ dev.off()
 ```
 Look at the result. It would look like there is a lot variation that appears insect specific. The Fruit fly and crane fly populations look especially unique.
 Interestingly, the ordinations between the MT-Cherry and Italian caddis flys look less distance from one another, perhaps indicating that these populatuions harbor similar microbiomes. 
+
+We can subset the phyloseq objects as well. It might be more useful to look at smaller set of samples to evaluate shifts in taxonomic diversity.
+```
+little<-meta_data[c(1:5,25:30,49:51, 61,62, 65,66,67,71,78,75:77,80, 82:85),]
+```
+The vector 'little' should now have 5 montana caddis flys, 5 moths, 5 fruit fly, the two predators, and 5 crane flys.
+We can then use the program 'prune_samples'. 
+```
+ps2<-prune_samples(little_names, ps)
+```
+Lets look at the distribution of the dominant phylum in these samples. 
+First, collapse the data at the phylum level with 'tax_glom'.
+```
+ps2.phylumGlom<-tax_glom(ps2, "Phylum")
+```
