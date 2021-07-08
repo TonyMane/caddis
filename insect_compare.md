@@ -165,7 +165,7 @@ Interestingly, the ordinations between the MT-Cherry and Italian caddis flys loo
 
 We can subset the phyloseq objects as well. It might be more useful to look at smaller set of samples to evaluate shifts in taxonomic diversity.
 ```
-little<-meta_data[c(1:5,25:30,49:51, 61,62, 65,66,67,71,78,75:77,80, 82:85),]
+little<-meta_data[c(1:5,26:30,49:51, 61,62, 65:69, 71,78, 75:77,80, 82:86),]
 ```
 The vector 'little' should now have 5 montana caddis flys, 5 moths, 5 fruit fly, the two predators, and 5 crane flys.
 We can then use the program 'prune_samples'. 
