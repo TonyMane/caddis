@@ -129,5 +129,10 @@ We can also quickly see the high and low.
 sort(colSums(t(otu_table(ps))))
 ```
 Sample SRR10448842 has 370 reads, while sample SRR10448835 has 2245397. This is four orders of magnitude.
-Whether or not this difference in sequencing depth will actually influence our results depends on the underlying diversity of the 
-sample. One way to evaulate underlying population diversity is by measuring 
+While this isn't ideal, lets just move forward, and later on we can evalulate whether to rarefy, or perhaps exclude low read-depth samples.
+There are a multitude of ways to look at how diverse a population is using phyloseq and other packages. Lets look at three commonly
+reported alpha diversity indices; Shannon Diversity, Simpson Diversity, and observed diversity.
+
+```
+plot_richness(ps, x="Insect", measures=c("Shannon", "Simpson", "Observed"), color="Insect")
+```
