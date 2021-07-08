@@ -117,9 +117,17 @@ names(dna) <- taxa_names(ps)
 ps <- merge_phyloseq(ps, dna)
 taxa_names(ps) <- paste0("ASV", seq(ntaxa(ps)))
 ```
-Lets look at the number of sequences per sample.
+Lets look at sum of all reads across all samples, which can give us some information about how deeply sequenced each sample is.
 
 ```
 colSums(t(otu_table(ps)))
 ```
 We can scroll through this and see there is a lot of variability.  
+Another way to look at this list is by sorting it.
+We can also quickly see the high and low.
+```
+sort(colSums(t(otu_table(ps))))
+```
+Sample SRR10448842 has 370 reads, while sample SRR10448835 has 2245397. This is four orders of magnitude.
+Whether or not this difference in sequencing depth will actually influence our results depends on the underlying diversity of the 
+sample. One way to evaulate underlying population diversity is by measuring 
