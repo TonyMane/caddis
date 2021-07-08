@@ -18,7 +18,7 @@ Use this to download the SRR files with fastq-dump as so:
 for i in $(cat SRR_Acc_List.txt); do echo $i; /home/abertagnolli3/programs/sratoolkit.2.9.6-1-centos_linux64/bin/fastq-dump --gzip --split-3 $i; done;
 ```
 This should begin downloading fastq files (one forward/reverse) for each sample. You can get the SRR numbers from each Bioproject and add them together as one
-big list and download everything as once, or download the fastq files from each BioProject separately (which ever you choose).
+big list and download everything at once, or download the fastq files from each BioProject separately (which ever you choose).
 
 Once we have all the public fastq files from the BioProjects, make a new directory, and add these files.
 
@@ -31,6 +31,7 @@ Also include all the Fly samples from sampling trip one at Cherry Creek.
 cp /Users/anthonyd.bertagnolli/Desktop/caddis/FLY_ONLY/*gz ./second_run
 ```
 Note, need to change the extensions from our data from 'L001_R1_001' and 'L001_R2_001' to simply '1' and '2', respectively.
+Can use the rename function.
 ```
 rename "s/L001_R1_001/1/" ./second_run/*
 rename "s/L001_R2_001/2/" ./second_run/*
@@ -85,8 +86,9 @@ Remove chimeras.
 seqtab <- makeSequenceTable(mergers)
 ```
 Assign taxonomy to the ASVs. NOTE, download the database (silva_nr_v132_train_set.fa.gz) from
-https://zenodo.org/record/1172783/files/silva_nr_v132_train_set.fa.gz?download=1
-This will take 30-45 minutes (again, on my MacBook Pro, 2.2 GHz Quad-Core Intel Core i7, 16 GB 1600 MHz DDR3).
+https://zenodo.org/record/1172783/files/silva_nr_v132_train_set.fa.gz?download=1, download should just take a few seconds.
+
+Assigning taxonomy will take 30-45 minutes (again, on my MacBook Pro, 2.2 GHz Quad-Core Intel Core i7, 16 GB 1600 MHz DDR3).
 ```
 taxa <- assignTaxonomy(seqtab.nochim, "silva_nr_v132_train_set.fa.gz", multithread=TRUE)
 ```
@@ -95,7 +97,7 @@ Read it into R, we'll call it 'meta_data'. We'll need this to make a phyloseq ob
 ```
 meta_data<-read.csv("insectcompare_07072021.csv")
 ```
-Load some more packages.
+Load some more packages required to make a phyloseq object. Again, phyloseq objects are good units for storing sequence information, the distribution of sequences across samples (sometimes referred to as OTU table), and other ancillary data about our samples (or meta data). 
 ```
 library(phyloseq); packageVersion("phyloseq")
 library(Biostrings); packageVersion("Biostrings")
@@ -110,7 +112,7 @@ samdf <- data.frame(Subject=subject, Insect=meta_data$Insect, Color=meta_data$Co
 rownames(samdf) <- samples.out
 ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE), sample_data(samdf), tax_table(taxa))
 ```
-OK, now we have the phyloseq object, but we need to modify this file. The ASVs are listed as DNA strings. 
+OK, now we have the phyloseq object, but we need to modify this file. The ASVs are listed as DNA strings. If we looked at the names of the ASVs right now, we would get long DNA sequences, which is kind of annoying to look at. 
 ```    
 dna <- Biostrings::DNAStringSet(taxa_names(ps))
 names(dna) <- taxa_names(ps)
@@ -124,15 +126,37 @@ colSums(t(otu_table(ps)))
 ```
 We can scroll through this and see there is a lot of variability.  
 Another way to look at this list is by sorting it.
-We can also quickly see the high and low.
+We can also quickly see the low and high values at the beginning and end of the resulting vector.
 ```
 sort(colSums(t(otu_table(ps))))
 ```
-Sample SRR10448842 has 370 reads, while sample SRR10448835 has 2245397. This is four orders of magnitude.
-While this isn't ideal, lets just move forward, and later on we can evalulate whether to rarefy, or perhaps exclude low read-depth samples.
-There are a multitude of ways to look at how diverse a population is using phyloseq and other packages. Lets look at three commonly
-reported alpha diversity indices; Shannon Diversity, Simpson Diversity, and observed diversity.
+Sample SRR10448842 has 370 reads, while sample SRR10448835 has 2245397. This is a four order of magnitude difference.
+Whether or not this difference in sequencing depth will actually influence our results depends on the underlying diversity of the 
+sample. We can look into statistics that tell us about this later. For a deeper discussion on alpha-diversity metrics please see:
+https://www.frontiersin.org/articles/10.3389/fmicb.2019.02407/full
+
+Lets actually look at how diverse our populations (MT caddis flys are) to other insects. There are a multitude of alpha diversity metrics. Probably the most commonly used are are observed species, the Simpson index, and the Shannon index. Shannon tells us "how difficult it is to predict the identity of a randomly chosen individual", while Simpson tells us "the probability that two randomly chosen individuals are the same species". Note, i like these simple explanations, and found them via https://github.com/grunwaldlab (go beavs!!!). Observed species is just that. In our case, the observed number of ASVs.
+```
+pdf("./alpha-diversity.pdf")
+plot_richness(ps, x="Insect", measures=c("Shannon", "Simpson", "Observed"), color="Insect")
+dev.off()
+```
+We just made a pdf, printed a plot of the alpha diversity indices across each of the different samples, and the result. It seems pretty clear that the MT, caddis
+flys populations are extremely diverse based on all metrics.
+
+We can also look at beta diversity, or differences between samples. Non-metric multidimensional scaling is commonly used. Prior to doing this, lets modify some of the data. We can evaluate the beta-diversity using ASVs, species designations, Genera, Families, or any other level of taxonomic diversity. 
+Lets start by doing some ordiations based on bray-curtis distances using Genera. 
+First, we collapse the data, or agglomerate it, using 'tax_glom'.
 
 ```
-plot_richness(ps, x="Insect", measures=c("Shannon", "Simpson", "Observed"), color="Insect")
+ps.glom_genus<-tax_glom(ps, "Genus", NArm=TRUE)
+ps.prop <- transform_sample_counts(ps.glom_genus, function(otu) otu/sum(otu))
+ord.nmds.bray <- ordinate(ps.prop, method="NMDS", distance="bray")
+```
+Now we can plot the results.
+
+```
+pdf("./beta.pdf")
+plot_ordination(ps.prop, ord.nmds.bray, color="Insect", title="Bray NMDS")
+dev.off()
 ```
