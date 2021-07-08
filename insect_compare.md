@@ -177,3 +177,11 @@ First, collapse the data at the phylum level with 'tax_glom'.
 ```
 ps2.phylumGlom<-tax_glom(ps2, "Phylum")
 ```
+Now calculate relative abundance with 'transform_sample_counts' and a function('function(x) x /sum(x))'). 
+```
+ps2.phylumGlom.rel<- transform_sample_counts(ps2.phylumGlom, function(x) x / sum(x))
+```
+
+```
+ps2.phylumGlom.rel.fr = filter_taxa(ps2.phylumGlom.rel, function(x) mean(x) > 1e-3, TRUE)
+```
