@@ -2,6 +2,8 @@ Saved R files (rds files), workflows, meta-data files, and manuscripts of intere
 
 Fly-Microbiome-07062021.csv; Insect microbiome studies used for initial comparison study of MT-caddis flys to other insects. Note, not comprehensive, focused mainly on studies where Earth Microbiome primers were used for amplifying V4 16S rRNA gene for direct comparison with our samples. Put together for Catie Williams REU.
 
+InsectCompare_07082021.csv; Insect microbiome NCBI sequence run IDs for all samples used in the insect microbiome study.
+
 bash07012021.R; just a simple R script that will run dada2 via R/bash. 
 
 caddis-stripped-06262021.RDS; R session containing the final phyloseq object for n=95 samples from April-2021 time sampling. Created using dada2/phyloseq default settings.
