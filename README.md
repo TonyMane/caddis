@@ -16,7 +16,7 @@ tutorial_dada2_to_phyloseq.md; commands used to process amplicon sequencing thro
 versus all (n=95) as this would take ~12 hours total to run through Desktop mac-osx.
 Little to no deviation in commands from the defaults used in the dada2 tutorial (https://benjjneb.github.io/dada2/tutorial.html), just removed error plotting portions, read tracking steps.
 
-tutorial_phyloseq_analyses.md; an overview of phyloseq. Still working on this.
+most_used_commands.md; an overview of phyloseq. Still working on this.
 
 tutorial_stats.mds; an overview of some stats commands that can be used in phyloseq. Still working on this.
 
