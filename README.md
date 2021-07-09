@@ -8,9 +8,9 @@ bash07012021.R; just a simple R script that will run dada2 via R/bash.
 
 caddis-stripped-06262021.RDS; R session containing the final phyloseq object for n=95 samples from April-2021 time sampling. Created using dada2/phyloseq default settings.
 
-caddis_toy_meta.csv; subset of meta data from 12 samples, used as small dada2 tutorial for Catie Williams-REU.
-
 caddis_meta.csv; file meta-data (sample names, sample types) for all 95 samples from April-2021 time sampling, also for Catie Williams-REU.
+
+caddis_toy_meta.csv; subset of meta data from 12 samples, used as small dada2 tutorial for Catie Williams-REU.
 
 insectcompare_07072021.csv; metadata and other information for comparative analyses of insect populations, specifically Caddis Flys from April 2021 sampling and several publically available sample types.
 
