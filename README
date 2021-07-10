@@ -12,6 +12,8 @@ fly-microbiome-07062021.csv; Insect microbiome studies used for initial comparis
 
 insectcompare_07072021.csv; metadata and other information for comparative analyses of insect populations, specifically Caddis Flys from April 2021 sampling and several publically available sample types.
 
+insectcompare_07082021.csv; Subset of 'insectcompare_07072021.csv', amplicon sets selected where read depth was above 5000 reads/sample.
+
 tutorial_dada2_to_phyloseq.md; commands used to process amplicon sequencing through dada2 (v1.16; latest as of May 2021). For the workflow, just used 12 samples
 versus all (n=95) as this would take ~12 hours total to run through Desktop mac-osx.
 Little to no deviation in commands from the defaults used in the dada2 tutorial (https://benjjneb.github.io/dada2/tutorial.html), just removed error plotting portions, read tracking steps.
