@@ -83,7 +83,7 @@ seqtab <- makeSequenceTable(mergers)
 ```
 Remove chimeras.
 ```
-seqtab <- makeSequenceTable(mergers)
+seqtab.nochim <- removeBimeraDenovo(seqtab, method="consensus", multithread=TRUE, verbose=TRUE)
 ```
 Assign taxonomy to the ASVs. NOTE, download the database (silva_nr_v132_train_set.fa.gz) from
 https://zenodo.org/record/1172783/files/silva_nr_v132_train_set.fa.gz?download=1, download should just take a few seconds.
