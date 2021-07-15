@@ -7,15 +7,18 @@ Third portion describes running all this data through DADA2.
 
 Fourth portion describes doing some preliminary alpha/beta diversity assesments.
 
-We found four studies utilizing Earth Microbiome oligos that could be used for direct comparison with our study.
-The four study Bioproject IDs are PRJEB40063, PRJNA547724, PRJNA578869, PRJNA589709. More information on
+We found three studies utilizing Earth Microbiome oligos that could be used for direct comparison with our study. This by no means a comprehensive list.
+The four study Bioproject IDs are PRJEB40063, PRJNA547724, PRJNA589709. More information on
 DOI numbers/publication names can be found in 'Fly-Microbiome-07062021.csv'. For each of the four BioProject IDs,
 we can access all fastq files from the short read archive (SRA) by first getting a list of the experiments IDS (SRR numbers). Can be done multiple ways. 
 'Easiest' way (for me) is to use the SRA Run Selector page, and get a flat list file. Visit https://www.ncbi.nlm.nih.gov/Traces/study/?o=acc_s%3Aa, 
 enter in the a BioProject ID, select 'Accesion List Tab', will automically download a file called 'SRR_Acc_List.txt'. 
+Can also get extended info from the 'Meta Data Tab'. This is useful for identifying specific samples of interest. For example, PRJEB40063 has 178 samples, but only a subset of them are from insect microbiomes, most are background soils for their comparitive study. 
+
+After identifying the SRR files we can interested in, we can combine all the IDs into a single text file, and fastq-dump to automatically download all the files we are interested in. The file 'SRR_small.txt' has 66 amplicon sequences of interest. 
 Use this to download the SRR files with fastq-dump as so:
 ```
-for i in $(cat SRR_Acc_List.txt); do echo $i; /home/abertagnolli3/programs/sratoolkit.2.9.6-1-centos_linux64/bin/fastq-dump --gzip --split-3 $i; done;
+for i in $(cat SRR_small.txt); do echo $i; /home/abertagnolli3/programs/sratoolkit.2.9.6-1-centos_linux64/bin/fastq-dump --gzip --split-3 $i; done;
 ```
 This should begin downloading fastq files (one forward/reverse) for each sample. You can get the SRR numbers from each Bioproject and add them together as one
 big list and download everything at once, or download the fastq files from each BioProject separately (which ever you choose).
