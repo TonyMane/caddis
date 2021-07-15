@@ -170,7 +170,7 @@ little<-meta_data[c(1:5,26:30,49:51, 61,62, 65:69, 71,78, 75:77,80, 82:86),]
 The vector 'little' should now have 5 montana caddis flys, 5 moths, 5 fruit fly, the two predators, and 5 crane flys.
 We can then use the program 'prune_samples'. 
 ```
-ps2<-prune_samples(little_names, ps)
+ps2<-prune_samples(little, ps)
 ```
 Lets look at the distribution of the dominant phylum in these samples. 
 First, collapse the data at the phylum level with 'tax_glom'.
