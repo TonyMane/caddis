@@ -27,9 +27,9 @@ Once we have all the public fastq files from the BioProjects, make a new directo
 mkdir second_run
 mv *gz second_run
 ```
-Also include all the Fly samples from sampling trip one at Cherry Creek.
+Also include Fly samples from sampling trip one at Cherry Creek.
 ```
-cp /Users/anthonyd.bertagnolli/Desktop/caddis/FLY_ONLY/*gz ./second_run
+cp /Users/anthonyd.bertagnolli/Desktop/caddis/FLY_ONLY/CC1-FLY1* ./second_run
 ```
 Note, need to change the extensions from our data from 'L001_R1_001' and 'L001_R2_001' to simply '1' and '2', respectively.
 Can use the rename function.
@@ -40,17 +40,17 @@ rename "s/L001_R2_001/2/" ./second_run/*
 There should be 90 individual samples. But check this by counting the forward and reverse reads.
 ```
 ls -l | grep -c "1.fastq.gz"
-90
+31
 
 ls -l | grep -c "2.fastq.gz"
-90
+31
 ```
 Ok, looks good. We can now run the data through dada2. The below lines, 9, should run quickly.
 ```
 library(dada2); packageVersion("dada2")
 path <- "second_run"
-fnFs <- sort(list.files(path, pattern="_1.fastq.gz")
-fnRs <- sort(list.files(path, pattern="_2.fastq.gz")
+fnFs <- sort(list.files(path, pattern="_1.fastq.gz"))
+fnRs <- sort(list.files(path, pattern="_2.fastq.gz"))
 sample.names <- sapply(strsplit(basename(fnFs), "_"), `[`, 1)
 filtFs <- file.path(path, "filtered", paste0(sample.names, "_F_filt.fastq.gz"))
 filtRs <- file.path(path, "filtered", paste0(sample.names, "_R_filt.fastq.gz"))
