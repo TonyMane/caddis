@@ -104,3 +104,8 @@ pdf("./caddis_total_venn.pdf")
 ps_venn1<-ps_venn(ps, "Type")
 dev.off()
 ```                               
+for box-plotting alpha diversity metrics directly from phyloseq
+```
+(p<-plot_richness(ps.rare, "Type", measures=alpha_meas))
+p + geom_boxplot(data=p$data, aes(x=Type, y=value, color=NULL), alpha=0.1)
+```
