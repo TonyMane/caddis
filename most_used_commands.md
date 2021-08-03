@@ -109,3 +109,10 @@ for box-plotting alpha diversity metrics directly from phyloseq
 (p<-plot_richness(ps.rare, "Type", measures=alpha_meas))
 p + geom_boxplot(data=p$data, aes(x=Type, y=value, color=NULL), alpha=0.1)
 ```
+for plotting with ggplot using 'par=mfrow' like command.
+```
+require(gridExtra)
+plot1 <- qplot(1)
+plot2 <- qplot(1)
+grid.arrange(plot1, plot2, ncol=2)
+``
