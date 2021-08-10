@@ -124,3 +124,11 @@ or weighted unifrac
 ```
 dist_unifrac<-phyloseq::distance(ps2.prune.rel, "wunifrac")
 ```
+pcoa in R w/ ape package
+```
+ps2.prune.pco<-ape::pcoa(dist_unifrac)
+```
+plot result
+```
+beta_diversity_3d(ps2.prune.pco, sample_data(ps2.prune.rel), "Type")
+```
