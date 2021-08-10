@@ -115,4 +115,12 @@ require(gridExtra)
 plot1 <- qplot(1)
 plot2 <- qplot(1)
 grid.arrange(plot1, plot2, ncol=2)
-``
+```
+running unifrac in phyloseq
+```
+dist_unifrac<-phyloseq::distance(ps2.prune.rel, "unifrac")
+```
+or weighted unifrac
+```
+dist_unifrac<-phyloseq::distance(ps2.prune.rel, "wunifrac")
+```
