@@ -132,3 +132,9 @@ plot result
 ```
 beta_diversity_3d(ps2.prune.pco, sample_data(ps2.prune.rel), "Type")
 ```
+Or, use vegan3d.
+```
+dist_unifrac<-phyloseq::distance(ps2.prune.rel, "unifrac")
+m <- monoMDS(dist_unifrac, model = "loc", k=3)
+scatterplot3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], color=COLOR, pch=16, legend=TRUE)
+```
