@@ -143,3 +143,8 @@ for removing specific samples types, or samples.
 time1_rm <- subset_samples(time1, sample_data(time1)$Type != "Fly")
 time1_rm <- subset_samples(time1_rm, sample_names(time1_rm) != "CC1-NET7")
 ```
+for measuring dispersion
+```
+mod2<-betadisper(dist_unifrac, sample_data(time2_noFly)$Type)
+boxplot(mod2)
+```
