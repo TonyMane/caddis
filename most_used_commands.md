@@ -155,3 +155,10 @@ An interesting tutorial/analysis:
 https://www.davidzeleny.net/anadat-r/doku.php/en:ordiagrams_examples
 A really useful overview of scatterplot3d:
 http://www.sthda.com/english/wiki/scatterplot3d-3d-graphics-r-software-and-data-visualization
+
+```
+s3d<-scatterplot3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], pch="", box=FALSE, grid=FALSE, xlim=c(-3,3), ylim=c(-3,3), zlim=c(-3,3))
+addgrids3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], grid = c("xy", "xz", "yz"), xlim=c(-3,3), ylim=c(-3,3), zlim=c(-3,3))
+s3d$points3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], pch=sample_data(Net)$Points)
+```
+
