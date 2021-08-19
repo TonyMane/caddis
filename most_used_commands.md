@@ -137,7 +137,6 @@ Or, use vegan3d.
 dist_unifrac<-phyloseq::distance(ps2.prune.rel, "unifrac")
 m <- monoMDS(dist_unifrac, model = "loc", k=3)
 scatterplot3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], color=COLOR, pch=16)
-scatterplot3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], color=COLOR, pch=16,
 ```
 for removing specific samples types, or samples.
 ```
@@ -152,3 +151,5 @@ boxplot(mod2)
 ```
 numbers<-c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2)
 ```
+An interesting tutorial/analysis:
+https://www.davidzeleny.net/anadat-r/doku.php/en:ordiagrams_examples
