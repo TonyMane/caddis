@@ -153,3 +153,5 @@ numbers<-c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
 ```
 An interesting tutorial/analysis:
 https://www.davidzeleny.net/anadat-r/doku.php/en:ordiagrams_examples
+A really useful overview of scatterplot3d:
+http://www.sthda.com/english/wiki/scatterplot3d-3d-graphics-r-software-and-data-visualization
