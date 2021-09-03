@@ -35,7 +35,7 @@ https://github.com/najoshi/sickle
 seqkit is also a useful for program for checking/modifying/manipulating sequences
 https://github.com/shenwei356/seqkit
 ```
-(base) -bash-4.2$ /home/abertagnolli3/programs/sickle-master/sickle pe -g -f Well-G1-CC1-RETR11_S9.R1.fastq.gz -r Well-G1-CC1-RETR11_S9.R2.fastq.gz -r Well-G1-CC1-RETR11_S9.R2.fastq.gz -o Well-G1-CC1-RETR11_S9.R1.trimmed.fastq.gz -p Well-G1-CC1-RETR11_S9.R2.trimmed.fastq.gz -t sanger -s singles.fastq -n
+(base) -bash-4.2$ /home/abertagnolli3/programs/sickle-master/sickle pe -g -f Well-G1-CC1-RETR11_S9.R1.fastq.gz -r Well-G1-CC1-RETR11_S9.R2.fastq.gz -o Well-G1-CC1-RETR11_S9.R1.trimmed.fastq.gz -p Well-G1-CC1-RETR11_S9.R2.trimmed.fastq.gz -t sanger -s singles.fastq -n
 ```
 Should see two more fastq files ('Well-G1-CC1-RETR11_S9.R1.trimmed.fastq.gz', 'Well-G1-CC1-RETR11_S9.R2.trimmed.fastq.gz').
 These are the inputs i use for doing preliminary assemblies with megahit.
