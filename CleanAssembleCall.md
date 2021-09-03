@@ -43,3 +43,4 @@ https://github.com/voutcn/megahit
 
 ```
 (base) -bash-4.2$ /home/abertagnolli3/MEGAHIT-1.2.9-Linux-x86_64-static/bin/megahit -1 Well-G1-CC1-RETR11_S9.R1.trimmed.fastq.gz -2 Well-G1-CC1 RETR11_S9.R2.trimmed.fastq.gz
+```
