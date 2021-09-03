@@ -44,3 +44,7 @@ https://github.com/voutcn/megahit
 ```
 (base) -bash-4.2$ /home/abertagnolli3/MEGAHIT-1.2.9-Linux-x86_64-static/bin/megahit -1 Well-G1-CC1-RETR11_S9.R1.trimmed.fastq.gz -2 Well-G1-CC1 RETR11_S9.R2.trimmed.fastq.gz
 ```
+Note, in the above command, i'm just using default settings. There are tons of different values we can adjust to increase contig size, n50 values, ect. 
+For the preliminary analyses i'm doing, i'm most interested in looking at the frequency of functional genes. Having great assemblies is useful, but not
+going to make or break anything at this point. For binning metagenomic assemblies, this is where messing with k-mer sizes, pre-normalization steps (get into this later) become more imporant (again, just my opinion). Also, i'm relying heavily on the defaults as they appear to working nicely (~250000 contig sizes for some of the samples, which is pretty good).
+Binning will take a while (at least 2 hours). megahit multithreads by default, requires a lot of memory, just FYI. 
