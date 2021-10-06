@@ -1,0 +1,459 @@
+bin name	domain	confidence	% completion	% redundancy	num_splits	total length	bin_name	total_scgs	supporting_scgs	t_domain	t_phylum	t_class	t_order	t_family	t_genus	t_species
+FLY17.001	EUKARYA	0.2	10.84	4.82	2386	16480909	FLY17.001	2	2	Archaea	None	None	None	None	None	None
+FLY17.002	BLANK	0.7	0.00	0.00	5563	34403522	FLY17.002	0	0	None	None	None	None	None	None	None
+FLY17.003	BLANK	0.8	0.00	0.00	9077	35722659	FLY17.003	1	1	Archaea	Thermoproteota	Bathyarchaeia	B26-1	B26-1	B63	B63 sp003601695
+FLY17.004	BACTERIA	1.0	100.00	16.90	918	3661054	FLY17.004	23	22	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+FLY17.005	BACTERIA	1.0	100.00	70.42	1346	4777690	FLY17.005	16	3	Bacteria	Firmicutes	Clostridia	Lachnospirales	UBA5962	UBA5962	UBA5962 sp002430285
+FLY17.006	BACTERIA	1.0	92.96	12.68	410	1873934	FLY17.006	21	3	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Sulfurospirillaceae	UBA1877	UBA1877 sp002352945
+FLY17.007	BACTERIA	0.4	40.85	15.49	1336	2296679	FLY17.007	12	4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Leadbetterella	Leadbetterella sp002256295
+FLY17.008	BACTERIA	0.6	60.56	33.80	1464	2282427	FLY17.008	25	12	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Mucinivorans	Mucinivorans hirudinis
+FLY17.009	BACTERIA	0.8	80.28	53.52	3293	4912491	FLY17.009	24	5	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	M3007	M3007 sp006226345
+FLY17.010	BACTERIA	0.8	83.10	32.39	1064	2040990	FLY17.010	21	21	Bacteria	None	None	None	None	None	None
+FLY17.011	BACTERIA	0.6	71.83	26.76	2216	3669706	FLY17.011	18	3	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Leadbetterella	Leadbetterella sp002256295
+FLY17.012	BACTERIA	0.7	66.20	40.85	1725	2628919	FLY17.012	21	7	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingorhabdus	None
+FLY17.013	BACTERIA	0.3	45.07	18.31	1807	2794237	FLY17.013	11	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Flavihumibacter	Flavihumibacter sp004295245
+FLY17.014	BACTERIA	0.4	36.62	9.86	920	1295900	FLY17.014	10	2	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Prosthecobacter	Prosthecobacter sp002343505
+FLY17.015	BACTERIA	0.7	70.42	36.62	2600	3600061	FLY17.015	18	4	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	UBA1936	UBA1936 sp002478575
+FLY1.001	BACTERIA	1.0	98.59	11.27	372	2937775	FLY1.001	12	12	Bacteria	Firmicutes	Clostridia	Lachnospirales	None	None	None
+FLY1.002	EUKARYA	0.3	24.10	7.23	5565	38773811	FLY1.002	2	2	Archaea	None	None	None	None	None	None
+FLY1.003	BACTERIA	1.0	97.18	1.41	278	1814220	FLY1.003	20	3	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Sulfurospirillaceae	UBA1877	UBA1877 sp002352945
+FLY1.004	BLANK	0.6	0.00	0.00	7373	46097900	FLY1.004	0	0	None	None	None	None	None	None	None
+FLY1.005	BLANK	0.9	0.00	0.00	7175	34944715	FLY1.005	0	0	None	None	None	None	None	None	None
+FLY1.006	BLANK	0.8	0.00	0.00	11100	41309466	FLY1.006	1	1	Bacteria	Nitrospirota	Thermodesulfovibrionia	Thermodesulfovibrionales	UBA6898	UBA6898	None
+FLY1.007	BACTERIA	0.4	46.48	18.31	3737	8173536	FLY1.007	15	4	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Frigididesulfovibrio	Frigididesulfovibrio litoralis
+FLY1.008	BACTERIA	1.0	98.59	25.35	1540	6649984	FLY1.008	27	4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Flectobacillus	Flectobacillus major
+FLY1.009	BACTERIA	0.6	61.97	45.07	1353	2017611	FLY1.009	27	11	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Mucinivorans	Mucinivorans hirudinis
+FLY1.010	BACTERIA	0.8	77.46	18.31	804	2149918	FLY1.010	23	20	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+FLY1.011	BACTERIA	0.6	57.75	38.03	1805	2614102	FLY1.011	23	23	Bacteria	None	None	None	None	None	None
+FLY1.012	BACTERIA	0.8	61.97	4.23	843	1398626	FLY1.012	17	17	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Frigididesulfovibrio	Frigididesulfovibrio cuneatus
+FLY1.013	BACTERIA	0.6	63.38	29.58	1038	1645650	FLY1.013	25	17	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	None	None
+FLY22.001	BACTERIA	0.3	69.01	49.30	34623	127184203	FLY22.001	6	6	None	None	None	None	None	None	None
+FLY22.002	BACTERIA	0.4	52.11	18.31	20353	79020871	FLY22.002	6	2	Bacteria	Firmicutes	Clostridia	Lachnospirales	CAG-274	UMGS1441	UMGS1441 sp900551755
+FLY22.003	BACTERIA	0.9	84.51	66.20	3436	5514553	FLY22.003	36	27	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+FLY9.001	EUKARYA	0.5	32.53	7.23	8768	82264851	FLY9.001	2	2	Archaea	None	None	None	None	None	None
+FLY9.002	BLANK	0.6	0.00	0.00	9002	66870989	FLY9.002	0	0	None	None	None	None	None	None	None
+FLY9.003	BLANK	0.6	0.00	0.00	13272	64569959	FLY9.003	1	1	Bacteria	Nitrospirota	Thermodesulfovibrionia	Thermodesulfovibrionales	UBA6898	UBA6898	None
+FLY9.004	BACTERIA	0.6	69.01	8.45	2020	4039621	FLY9.004	23	15	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Mucinivorans	Mucinivorans hirudinis
+FLY9.005	BACTERIA	1.0	95.77	5.63	815	6117522	FLY9.005	21	21	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+FLY9.006	EUKARYA	0.3	21.69	2.41	6941	23821851	FLY9.006	9	4	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Frigididesulfovibrio	Frigididesulfovibrio litoralis
+FLY9.007	BACTERIA	1.0	100.00	80.28	1130	4489872	FLY9.007	42	8	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Anderseniellaceae	PALSA-927	PALSA-927 sp003151375
+FLY9.008	EUKARYA	0.3	13.25	2.41	11691	34741218	FLY9.008	6	6	Bacteria	None	None	None	None	None	None
+FLY9.009	BLANK	1.0	0.00	0.00	13672	42212724	FLY9.009	0	0	None	None	None	None	None	None	None
+FLY9.010	BACTERIA	0.7	71.83	45.07	2272	5467974	FLY9.010	17	16	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	None	None
+FLY9.011	BLANK	1.0	0.00	0.00	13594	33759440	FLY9.011	0	0	None	None	None	None	None	None	None
+FLY9.012	BACTERIA	0.6	64.79	26.76	2881	7056505	FLY9.012	9	9	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+FLY9.013	BACTERIA	0.3	26.76	2.82	13878	28652945	FLY9.013	5	5	Bacteria	None	None	None	None	None	None
+FLY9.014	BACTERIA	0.5	36.62	9.86	320	797535	FLY9.014	18	18	Bacteria	None	None	None	None	None	None
+FLY9.015	BACTERIA	0.5	63.38	33.80	1027	2606310	FLY9.015	9	9	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	None	None
+FLY9.016	BACTERIA	0.7	71.83	49.30	5177	8627846	FLY9.016	16	2	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Sulfurospirillaceae	UBA1877	UBA1877 sp002352945
+FLY9.017	BACTERIA	0.8	77.46	15.49	1081	1933327	FLY9.017	20	14	Bacteria	Actinobacteriota	Actinomycetia	Propionibacteriales	Nocardioidaceae	Nocardioides	None
+FLY9.018	BACTERIA	0.8	85.92	61.97	2002	4163487	FLY9.018	20	13	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	None	None
+FLY9.019	BACTERIA	0.4	39.44	26.76	334	587402	FLY9.019	24	12	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	None
+FLY9.020	BACTERIA	0.6	59.15	36.62	920	1371854	FLY9.020	25	11	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Hydrogenophaga	None
+FLY9.021	BACTERIA	0.7	73.24	35.21	1749	3016068	FLY9.021	27	25	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+FLY9.022	BACTERIA	0.5	54.93	4.23	519	1012220	FLY9.022	13	13	Bacteria	Firmicutes	Clostridia	Oscillospirales	None	None	None
+FLY9.023	BLANK	0.8	0.00	0.00	488	686085	FLY9.023	11	11	Bacteria	None	None	None	None	None	None
+FLY9.024	BACTERIA	0.5	47.89	14.08	3201	4887975	FLY9.024	7	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Rubrivivax	Rubrivivax sp001725505
+FLY9.025	BACTERIA	0.5	64.79	50.70	2467	3498960	FLY9.025	18	18	Bacteria	None	None	None	None	None	None
+NET15.001	BACTERIA	0.6	59.15	0.00	156	2269363	NET15.001	18	18	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+NET15.002	BACTERIA	0.3	32.39	1.41	260	3168073	NET15.002	4	2	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	Microcoleus sp004294385
+NET15.003	BLANK	1.0	0.00	0.00	150	722524	NET15.003	1	1	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	Microcoleus sp004294385
+NET15.004	BACTERIA	0.6	57.75	8.45	289	827180	NET15.004	7	7	Bacteria	None	None	None	None	None	None
+NET15.005	BACTERIA	0.6	54.93	43.66	473	1402450	NET15.005	5	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET15.006	BACTERIA	0.6	45.07	22.54	15	126834	NET15.006	3	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET15.007	BLANK	0.9	0.00	0.00	23	105218	NET15.007	0	0	None	None	None	None	None	None	None
+NET15.008	BACTERIA	0.6	46.48	14.08	24	116330	NET15.008	5	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET15.009	BACTERIA	0.2	32.39	5.63	2000	4964494	NET15.009	4	3	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+NET15.010	BACTERIA	1.0	100.00	30.99	1298	9539316	NET15.010	28	7	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Sorangium	Sorangium cellulosum
+NET15.011	BACTERIA	0.3	26.76	18.31	53	124157	NET15.011	4	2	Bacteria	Cyanobacteria	Cyanobacteriia	Phormidesmiales	Phormidesmiaceae	PCC-7375	PCC-7375 sp000316115
+NET15.012	BACTERIA	0.3	29.58	1.41	5166	8324657	NET15.012	10	7	Bacteria	Cyanobacteria	Cyanobacteriia	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena	None
+NET15.013	BACTERIA	0.7	69.01	67.61	2282	3514059	NET15.013	29	11	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Rhodoferax	None
+NET15.014	BACTERIA	0.3	19.72	5.63	148	302119	NET15.014	2	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET15.015	BACTERIA	0.5	50.70	15.49	1046	2561274	NET15.015	11	9	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	UBA9547	REAG01	REAG01 sp004294265
+NET15.016	BACTERIA	0.9	94.37	57.75	2434	5882551	NET15.016	30	17	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Bernardetiaceae	Thermoflexibacter	Thermoflexibacter sp004294445
+NET15.017	BACTERIA	0.6	60.56	67.61	3200	5576686	NET15.017	31	11	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET15.018	BACTERIA	0.3	38.03	7.04	500	1177300	NET15.018	12	5	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	UBA9547	REAG01	REAG01 sp004294265
+NET15.019	BACTERIA	0.7	71.83	53.52	1521	2339556	NET15.019	29	6	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+NET15.020	BACTERIA	0.9	91.55	74.65	2027	3840424	NET15.020	44	18	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	None	None
+NET15.021	BACTERIA	0.4	52.11	11.27	1788	3394202	NET15.021	6	6	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+NET15.022	BLANK	1.0	0.00	0.00	524	899999	NET15.022	1	1	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Pseudarcicella	Pseudarcicella hirudinis
+NET15.023	BACTERIA	0.5	39.44	33.80	436	716360	NET15.023	8	4	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET15.024	BACTERIA	0.7	76.06	38.03	2550	4386362	NET15.024	17	7	Bacteria	Cyanobacteria	Cyanobacteriia	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena	None
+NET15.025	BACTERIA	0.5	63.38	57.75	3899	6119043	NET15.025	17	6	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Polaromonas	None
+NET15.026	BLANK	0.7	0.00	0.00	1598	2409190	NET15.026	3	3	Bacteria	Spirochaetota	Leptospirae	Leptospirales	Leptospiraceae	UBA2033	UBA2033 sp002333425
+NET15.027	BACTERIA	0.4	35.21	16.90	5288	7164831	NET15.027	11	4	Bacteria	Spirochaetota	Leptospirae	Leptospirales	Leptospiraceae	UBA2033	UBA2033 sp002333425
+NET16.001	BACTERIA	1.0	98.59	728.17	900	4942150	NET16.001	64	20	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET16.002	BACTERIA	0.7	76.06	9.86	2254	6905806	NET16.002	17	17	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+NET16.003	BACTERIA	0.5	70.42	19.72	822	3883920	NET16.003	12	11	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET16.004	BACTERIA	0.7	70.42	56.34	1649	3417327	NET16.004	20	20	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET16.005	BACTERIA	0.9	95.77	21.13	2364	12461293	NET16.005	24	7	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Sorangium	Sorangium cellulosum
+NET16.006	BACTERIA	0.7	69.01	52.11	1394	2778034	NET16.006	23	23	Bacteria	None	None	None	None	None	None
+NET16.007	BLANK	0.7	0.00	0.00	1599	3326341	NET16.007	2	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET16.008	BACTERIA	0.8	71.83	43.66	1836	3804478	NET16.008	22	9	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+NET16.009	BACTERIA	0.4	35.21	7.04	4776	8968238	NET16.009	8	4	Bacteria	Cyanobacteria	Cyanobacteriia	Leptolyngbyales	Leptolyngbyaceae	Alkalinema	Alkalinema sp002148405
+NET16.010	BACTERIA	0.5	49.30	29.58	1968	3440674	NET16.010	7	7	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET16.011	BACTERIA	1.0	90.14	49.30	1827	6298136	NET16.011	22	17	Bacteria	Spirochaetota	Leptospirae	Leptospirales	Leptospiraceae	UBA2033	UBA2033 sp002333425
+NET16.012	BACTERIA	0.6	52.11	47.89	3927	6174138	NET16.012	26	17	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET16.013	BACTERIA	0.8	77.46	60.56	1966	3743214	NET16.013	38	22	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Rhodoferax	None
+NET16.014	BLANK	0.8	0.00	0.00	104	218564	NET16.014	1	1	Bacteria	Cyanobacteria	Cyanobacteriia	Phormidesmiales	Phormidesmiaceae	PXEF01	PXEF01 sp007135385
+NET16.015	EUKARYA	0.3	37.35	8.43	6480	15096326	NET16.015	2	2	Bacteria	Cyanobacteria	Cyanobacteriia	None	None	None	None
+NET16.016	BACTERIA	0.6	50.70	67.61	80	158841	NET16.016	16	10	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET16.017	BACTERIA	0.3	40.85	39.44	3429	6555217	NET16.017	7	7	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET16.018	BLANK	0.9	0.00	0.00	2672	3937113	NET16.018	0	0	None	None	None	None	None	None	None
+NET16.019	BACTERIA	0.5	54.93	26.76	2469	3859577	NET16.019	18	3	Bacteria	Cyanobacteria	Cyanobacteriia	Leptolyngbyales	Leptolyngbyaceae	Alkalinema	Alkalinema sp002148405
+NET16.020	BLANK	0.5	0.00	0.00	5231	9807153	NET16.020	1	1	Bacteria	Nitrospirota	Nitrospiria	Nitrospirales	Nitrospiraceae	Nitrospira	Nitrospira sp005116965
+NET16.021	BACTERIA	0.7	69.01	81.69	2003	3919807	NET16.021	15	15	Bacteria	None	None	None	None	None	None
+NET16.022	BACTERIA	0.4	50.70	36.62	1973	4093684	NET16.022	4	4	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET16.023	BLANK	0.8	0.00	0.00	359	764843	NET16.023	0	0	None	None	None	None	None	None	None
+NET16.024	EUKARYA	0.3	26.51	6.02	6954	13682747	NET16.024	6	2	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Nostocaceae	Chlorogloeopsis	Chlorogloeopsis sp000332255
+NET16.025	BACTERIA	0.7	69.01	42.25	1877	3347190	NET16.025	23	23	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET16.026	BACTERIA	0.2	29.58	14.08	6552	11051781	NET16.026	0	0	None	None	None	None	None	None	None
+NET16.027	BACTERIA	0.4	45.07	25.35	1637	2713084	NET16.027	16	8	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET16.028	BLANK	1.0	0.00	0.00	93	182008	NET16.028	0	0	None	None	None	None	None	None	None
+NET16.029	BLANK	0.8	0.00	0.00	2015	3391065	NET16.029	1	1	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Polaromonas	Polaromonas sp002256925
+NET16.030	BACTERIA	0.3	39.44	21.13	1694	2998163	NET16.030	5	2	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Flectobacillus	Flectobacillus major
+NET16.031	BLANK	0.9	0.00	0.00	192	302444	NET16.031	2	2	Bacteria	None	None	None	None	None	None
+NET16.032	BLANK	0.9	0.00	0.00	265	434148	NET16.032	1	1	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET16.033	BACTERIA	0.3	39.44	11.27	1478	2696072	NET16.033	6	6	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+NET16.034	BACTERIA	0.7	77.46	39.44	4051	6889352	NET16.034	24	13	Bacteria	Cyanobacteria	Cyanobacteriia	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena	None
+NET16.035	BLANK	0.6	0.00	0.00	4838	6843696	NET16.035	4	4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	None	None
+NET16.036	BACTERIA	0.3	28.17	9.86	150	251665	NET16.036	1	1	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Nostocaceae	Chlorogloeopsis	Chlorogloeopsis sp000332255
+NET16.037	BACTERIA	0.7	66.20	36.62	1072	1465702	NET16.037	34	21	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET16.038	BACTERIA	0.4	50.70	30.99	1759	2569247	NET16.038	13	6	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+NET16.039	BACTERIA	0.7	64.79	22.54	1837	2632122	NET16.039	17	17	Bacteria	None	None	None	None	None	None
+NET16.040	BLANK	0.8	0.00	0.00	3106	3861236	NET16.040	3	3	Bacteria	None	None	None	None	None	None
+NET24.001	BACTERIA	0.6	52.11	1.41	22	125577	NET24.001	6	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.002	BACTERIA	0.6	53.52	5.63	34	205651	NET24.002	5	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.003	BACTERIA	0.7	54.93	42.25	244	800488	NET24.003	5	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.004	BACTERIA	0.6	45.07	21.13	39	196069	NET24.004	6	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.005	BLANK	0.7	0.00	0.00	696	2027660	NET24.005	6	6	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.006	BLANK	1.0	0.00	0.00	62	150996	NET24.006	0	0	None	None	None	None	None	None	None
+NET24.007	BLANK	1.0	0.00	0.00	42	153175	NET24.007	0	0	None	None	None	None	None	None	None
+NET24.008	BACTERIA	0.6	53.52	25.35	36	229350	NET24.008	3	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.009	BLANK	1.0	0.00	0.00	106	317034	NET24.009	0	0	None	None	None	None	None	None	None
+NET24.010	BACTERIA	0.6	49.30	0.00	14	104820	NET24.010	4	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.011	BLANK	0.8	0.00	0.00	1310	3321094	NET24.011	1	1	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	UBA997	UBA997 sp002291945
+NET24.012	BACTERIA	0.6	50.70	4.23	27	145245	NET24.012	5	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.013	BACTERIA	1.0	98.59	45.07	1031	9556954	NET24.013	32	7	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Sorangium	Sorangium cellulosum
+NET24.014	BACTERIA	1.0	95.77	11.27	865	6400893	NET24.014	23	23	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+NET24.015	BACTERIA	0.6	45.07	5.63	22	118803	NET24.015	4	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.016	BACTERIA	0.8	67.61	42.25	1342	3183125	NET24.016	19	19	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.017	BACTERIA	0.2	26.76	22.54	1980	4712290	NET24.017	4	4	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+NET24.018	BACTERIA	0.9	88.73	70.42	2119	4542636	NET24.018	39	12	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+NET24.019	BACTERIA	0.5	47.89	25.35	566	2328779	NET24.019	23	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp007097365
+NET24.020	BACTERIA	0.5	57.75	42.25	535	3734896	NET24.020	14	13	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET24.021	BACTERIA	0.5	47.89	32.39	995	3564039	NET24.021	14	8	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET24.022	EUKARYA	0.2	8.43	2.41	3041	7881605	NET24.022	5	5	Bacteria	None	None	None	None	None	None
+NET24.023	BACTERIA	0.5	42.25	19.72	50	139906	NET24.023	8	5	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.024	BLANK	0.7	0.00	0.00	1548	2659364	NET24.024	1	1	Bacteria	Patescibacteria	Gracilibacteria	Absconditabacterales	X112	Aalborg-AAW-1	Aalborg-AAW-1 sp001007975
+NET24.025	BACTERIA	0.9	85.92	71.83	1359	2925827	NET24.025	39	36	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.026	BACTERIA	0.2	15.49	0.00	2523	6642843	NET24.026	0	0	None	None	None	None	None	None	None
+NET24.027	BLANK	0.7	0.00	0.00	3278	8606528	NET24.027	0	0	None	None	None	None	None	None	None
+NET24.028	BACTERIA	0.8	80.28	63.38	1689	2883275	NET24.028	41	38	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.029	BLANK	0.9	0.00	0.00	2608	4260269	NET24.029	1	1	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Rhodoglobus	Rhodoglobus sp004297555
+NET24.030	BACTERIA	0.6	53.52	40.85	1003	2172714	NET24.030	22	14	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET24.031	BLANK	0.7	0.00	0.00	3371	7653811	NET24.031	0	0	None	None	None	None	None	None	None
+NET24.032	BACTERIA	0.5	33.80	14.08	209	392821	NET24.032	3	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET24.033	BLANK	0.9	0.00	0.00	3581	6699117	NET24.033	0	0	None	None	None	None	None	None	None
+NET24.034	BACTERIA	1.0	100.00	43.66	945	3134320	NET24.034	34	22	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	None	None
+NET24.035	BACTERIA	0.3	36.62	11.27	760	1740041	NET24.035	2	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.036	BLANK	0.9	0.00	0.00	1916	2802274	NET24.036	1	1	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET24.037	BACTERIA	0.6	46.48	16.90	757	1625578	NET24.037	19	19	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.038	BACTERIA	0.6	61.97	8.45	1126	3180597	NET24.038	10	10	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET24.039	BACTERIA	0.7	66.20	46.48	682	1438896	NET24.039	37	23	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Rhodoferax	None
+NET24.040	BLANK	1.0	0.00	0.00	151	256191	NET24.040	0	0	None	None	None	None	None	None	None
+NET24.041	BACTERIA	0.4	40.85	98.59	634	1289478	NET24.041	5	5	Bacteria	None	None	None	None	None	None
+NET24.042	BACTERIA	0.5	53.52	38.03	854	1880903	NET24.042	4	4	Bacteria	None	None	None	None	None	None
+NET24.043	BACTERIA	0.5	54.93	46.48	2628	5201207	NET24.043	11	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002482945
+NET24.044	BLANK	0.7	0.00	0.00	285	563168	NET24.044	1	1	Bacteria	Firmicutes	Bacilli	RF39	CAG-433	CAG-594	CAG-594 sp000434835
+NET24.045	BACTERIA	0.6	67.61	61.97	3355	7175175	NET24.045	12	12	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.046	BACTERIA	0.5	42.25	11.27	656	1014900	NET24.046	13	13	Bacteria	None	None	None	None	None	None
+NET24.047	BACTERIA	0.5	66.20	40.85	2024	4568565	NET24.047	14	5	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Thermonemataceae	Raineya	Raineya sp001281695
+NET24.048	BLANK	0.8	0.00	0.00	2820	4482106	NET24.048	2	2	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+NET24.049	BACTERIA	1.0	97.18	90.14	3708	7444178	NET24.049	29	29	Bacteria	None	None	None	None	None	None
+NET24.050	BLANK	0.7	0.00	0.00	3925	5885052	NET24.050	1	1	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET24.051	BACTERIA	0.3	33.80	21.13	2453	4922249	NET24.051	4	4	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET24.052	BACTERIA	0.2	18.31	5.63	993	1715900	NET24.052	1	1	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Thermonemataceae	Raineya	Raineya orbicola
+NET24.053	BLANK	0.9	0.00	0.00	2594	3767435	NET24.053	1	1	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	OLB9	OLB9 sp002482845
+NET24.054	BACTERIA	0.7	63.38	50.70	2870	5001142	NET24.054	27	7	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Arcicella	Arcicella aurantiaca
+NET24.055	BACTERIA	0.3	42.25	36.62	3856	5679043	NET24.055	20	6	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Arcicella	Arcicella aurantiaca
+NET24.056	BACTERIA	0.5	60.56	53.52	1592	2580501	NET24.056	24	15	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET24.057	BACTERIA	0.4	39.44	9.86	1057	1683008	NET24.057	13	13	Bacteria	None	None	None	None	None	None
+NET24.058	BACTERIA	0.6	60.56	69.01	964	1366052	NET24.058	42	42	Bacteria	None	None	None	None	None	None
+NET24.059	BACTERIA	0.5	63.38	25.35	2688	4095881	NET24.059	14	7	Bacteria	Cyanobacteria	Cyanobacteriia	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena	None
+NET24.060	EUKARYA	0.2	22.89	0.00	2918	4110179	NET24.060	1	1	Bacteria	Proteobacteria	Alphaproteobacteria	UBA7985	UBA7985	UBA7985	None
+NET24.061	BACTERIA	0.4	49.30	7.04	1297	1972952	NET24.061	10	5	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	UBA1315	UBA1315 sp002307065
+NET24.062	BACTERIA	0.6	63.38	19.72	1212	1731052	NET24.062	23	10	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+NET8.001	BACTERIA	0.4	35.21	16.90	176	309013	NET8.001	4	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET8.002	BACTERIA	0.6	52.11	5.63	21	119654	NET8.002	5	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET8.003	BACTERIA	0.6	54.93	16.90	21	138546	NET8.003	6	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET8.004	BACTERIA	1.0	97.18	15.49	1287	6193369	NET8.004	23	22	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+NET8.005	BACTERIA	0.9	85.92	4.23	1545	3511894	NET8.005	20	20	Bacteria	Cyanobacteria	Cyanobacteriia	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena	None
+NET8.006	BACTERIA	0.5	57.75	11.27	381	1829584	NET8.006	10	10	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET8.007	BLANK	0.9	0.00	0.00	44	104346	NET8.007	1	1	Bacteria	Cyanobacteria	Cyanobacteriia	Phormidesmiales	Phormidesmiaceae	PXEF01	PXEF01 sp007135385
+NET8.008	BLANK	0.7	0.00	0.00	3827	6048712	NET8.008	5	5	Bacteria	None	None	None	None	None	None
+NET8.009	BACTERIA	0.4	36.62	22.54	1218	2148440	NET8.009	14	13	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET8.010	BACTERIA	0.8	74.65	35.21	2048	3931397	NET8.010	17	11	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET8.011	BACTERIA	0.8	80.28	39.44	2947	4633457	NET8.011	25	4	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	UBA1315	UBA1315 sp002307065
+NET8.012	BACTERIA	0.3	42.25	18.31	1641	2701980	NET8.012	3	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002482945
+NET8.013	BLANK	1.0	0.00	0.00	113	185275	NET8.013	0	0	None	None	None	None	None	None	None
+NET8.014	BACTERIA	0.6	77.46	39.44	3112	4642156	NET8.014	20	20	Bacteria	None	None	None	None	None	None
+NET8.015	BACTERIA	0.5	42.25	22.54	1331	2129991	NET8.015	4	4	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+NET8.016	BACTERIA	0.6	64.79	25.35	3200	4844718	NET8.016	18	9	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Crocinitomicaceae	UBA4466	UBA4466 sp002733985
+NET8.017	BACTERIA	0.5	49.30	25.35	1762	2775917	NET8.017	16	13	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET8.018	BACTERIA	1.0	95.77	139.44	4405	6849536	NET8.018	62	32	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET8.019	BACTERIA	0.8	70.42	40.85	1553	2306005	NET8.019	25	21	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+NET8.020	BACTERIA	0.8	85.92	87.32	4781	6624311	NET8.020	42	42	Bacteria	None	None	None	None	None	None
+NET8.021	BACTERIA	0.3	38.03	12.68	1283	1876256	NET8.021	7	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+NET8.022	BLANK	0.8	0.00	0.00	588	855999	NET8.022	6	5	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+NET8.023	BLANK	1.0	0.00	0.00	5296	6817618	NET8.023	0	0	None	None	None	None	None	None	None
+NET8.024	BLANK	0.6	0.00	0.00	3923	5028481	NET8.024	5	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera sp001803395
+RETR11.001	BACTERIA	0.4	45.07	5.63	1765	3084899	RETR11.001	7	6	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	None	None
+RETR11.002	BACTERIA	1.0	98.59	181.69	1038	5151401	RETR11.002	49	34	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR11.003	BLANK	1.0	0.00	0.00	833	1634919	RETR11.003	1	1	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Acidovorax	Acidovorax delafieldii
+RETR11.004	BLANK	0.8	0.00	0.00	2133	4145792	RETR11.004	4	4	Bacteria	None	None	None	None	None	None
+RETR11.005	BLANK	0.9	0.00	0.00	2108	4207883	RETR11.005	0	0	None	None	None	None	None	None	None
+RETR11.006	BACTERIA	1.0	100.00	123.94	4441	11294398	RETR11.006	30	17	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Thermomonas	Thermomonas sp006337105
+RETR11.007	BACTERIA	0.7	69.01	32.39	2698	6291613	RETR11.007	14	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+RETR11.008	BLANK	0.7	0.00	0.00	89	220405	RETR11.008	5	3	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR11.009	BACTERIA	0.5	57.75	35.21	897	2712927	RETR11.009	12	5	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR11.010	BACTERIA	0.7	66.20	23.94	531	2396221	RETR11.010	15	14	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR11.011	BACTERIA	0.5	57.75	45.07	1206	4458551	RETR11.011	20	18	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR11.012	BACTERIA	0.3	25.35	15.49	101	214376	RETR11.012	17	17	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+RETR11.013	BLANK	0.7	0.00	0.00	516	1316036	RETR11.013	8	4	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR11.014	BLANK	0.6	0.00	0.00	52	127055	RETR11.014	7	7	Bacteria	None	None	None	None	None	None
+RETR11.015	BLANK	0.8	0.00	0.00	562	1072577	RETR11.015	4	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002482945
+RETR11.016	BLANK	0.8	0.00	0.00	1590	2695069	RETR11.016	3	2	Bacteria	Nitrospirota	Nitrospiria	Nitrospirales	Nitrospiraceae	Palsa-1315	Palsa-1315 sp005116885
+RETR11.017	BACTERIA	0.7	74.65	71.83	3617	5917483	RETR11.017	25	25	Bacteria	None	None	None	None	None	None
+RETR11.018	BACTERIA	0.4	43.66	16.90	1540	2582742	RETR11.018	15	4	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+RETR11.019	BLANK	0.9	0.00	0.00	360	684551	RETR11.019	2	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	None	None	None
+RETR11.020	BACTERIA	0.5	52.11	18.31	2351	5411908	RETR11.020	7	7	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	None	None
+RETR11.021	BACTERIA	0.3	35.21	21.13	2437	4601289	RETR11.021	3	3	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	None	None
+RETR11.022	BACTERIA	0.6	50.70	26.76	4002	7084444	RETR11.022	6	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	SLDF01	SLDF01 sp007125435
+RETR11.023	BLANK	0.7	0.00	0.00	143	313887	RETR11.023	4	3	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR11.024	BACTERIA	0.7	63.38	52.11	3573	6369818	RETR11.024	13	13	Bacteria	None	None	None	None	None	None
+RETR11.025	BACTERIA	0.7	57.75	42.25	896	1757401	RETR11.025	23	9	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR11.026	BLANK	0.9	0.00	0.00	1607	2834191	RETR11.026	3	2	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Arcicella	Arcicella aurantiaca
+RETR11.027	BACTERIA	0.8	80.28	47.89	4080	6127105	RETR11.027	33	19	Bacteria	Nitrospirota	Nitrospiria	Nitrospirales	Nitrospiraceae	Palsa-1315	None
+RETR11.028	BACTERIA	0.5	53.52	16.90	2172	4275753	RETR11.028	9	8	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR11.029	BACTERIA	0.4	39.44	39.44	583	981221	RETR11.029	6	6	Bacteria	None	None	None	None	None	None
+RETR11.030	BACTERIA	0.5	64.79	39.44	1461	2959757	RETR11.030	24	23	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR11.031	BACTERIA	0.4	40.85	29.58	150	324156	RETR11.031	21	7	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR11.032	BACTERIA	0.2	22.54	5.63	118	243031	RETR11.032	8	4	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR11.033	BACTERIA	0.5	45.07	29.58	4445	7416981	RETR11.033	11	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Haliscomenobacter	Haliscomenobacter hydrossis
+RETR11.034	BLANK	0.7	0.00	0.00	182	323913	RETR11.034	3	3	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	None	None
+RETR11.035	BLANK	0.9	0.00	0.00	291	479011	RETR11.035	0	0	None	None	None	None	None	None	None
+RETR11.036	BACTERIA	0.2	18.31	4.23	392	753930	RETR11.036	2	2	Bacteria	Proteobacteria	Gammaproteobacteria	None	None	None	None
+RETR11.037	BACTERIA	0.5	49.30	53.52	4304	8219487	RETR11.037	6	6	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR11.038	BLANK	1.0	0.00	0.00	413	645840	RETR11.038	0	0	None	None	None	None	None	None	None
+RETR11.039	BACTERIA	0.6	57.75	16.90	1325	2113334	RETR11.039	16	16	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR11.040	BACTERIA	0.6	53.52	42.25	498	849364	RETR11.040	5	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+RETR11.041	BACTERIA	0.8	81.69	46.48	1631	2803666	RETR11.041	30	14	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus morosus
+RETR11.042	BACTERIA	0.2	26.76	5.63	737	1077629	RETR11.042	6	6	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Crocinitomicaceae	None	None
+RETR11.043	BACTERIA	0.3	23.94	2.82	572	941299	RETR11.043	4	4	Bacteria	None	None	None	None	None	None
+RETR11.044	BACTERIA	0.5	45.07	18.31	1577	2443918	RETR11.044	15	5	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+RETR11.045	BACTERIA	0.5	50.70	21.13	2784	4377391	RETR11.045	12	2	Bacteria	Actinobacteriota	Thermoleophilia	Ga0077560	Ga0077560	Ga0077541	Ga0077541 sp001464995
+RETR11.046	BACTERIA	0.7	63.38	21.13	2175	3379592	RETR11.046	19	9	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Crocinitomicaceae	UBA4466	UBA4466 sp002733985
+RETR11.047	BLANK	1.0	0.00	0.00	330	489969	RETR11.047	1	1	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	None	None
+RETR11.048	BACTERIA	0.7	74.65	40.85	2513	3767595	RETR11.048	29	29	Bacteria	None	None	None	None	None	None
+RETR11.049	BLANK	0.9	0.00	0.00	943	1383496	RETR11.049	0	0	None	None	None	None	None	None	None
+RETR11.050	BACTERIA	0.3	36.62	19.72	2188	3132755	RETR11.050	11	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Ferruginibacter	Ferruginibacter sp002400445
+RETR11.051	BACTERIA	0.8	77.46	80.28	4536	6684148	RETR11.051	27	27	Bacteria	None	None	None	None	None	None
+RETR11.052	BACTERIA	0.8	73.24	49.30	2094	2873018	RETR11.052	35	5	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	SCMT01	SCMT01 sp005502915
+RETR11.053	BLANK	1.0	0.00	0.00	1034	1535630	RETR11.053	0	0	None	None	None	None	None	None	None
+RETR11.054	BACTERIA	0.7	71.83	36.62	3171	4654428	RETR11.054	21	5	Bacteria	Actinobacteriota	Acidimicrobiia	Acidimicrobiales	SZUA-35	SZUA-35	SZUA-35 sp003231975
+RETR11.055	BACTERIA	0.6	50.70	46.48	1330	1892519	RETR11.055	20	8	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR11.056	BACTERIA	0.6	63.38	28.17	1226	1723689	RETR11.056	23	3	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	SG8-41	UBA5216	UBA5216 sp002412495
+RETR11.057	BACTERIA	0.6	63.38	35.21	1491	2121435	RETR11.057	22	3	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	UBA1936	UBA1936 sp002478575
+RETR12.001	BACTERIA	0.6	59.15	23.94	773	3315847	RETR12.001	13	13	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	None	None
+RETR12.002	BACTERIA	0.5	59.15	21.13	1366	5870615	RETR12.002	6	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Flavilitoribacter	Flavilitoribacter nigricans
+RETR12.003	BACTERIA	0.2	22.54	11.27	1155	3300092	RETR12.003	12	3	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Lewinella	Lewinella cohaerens
+RETR12.004	BACTERIA	0.8	73.24	23.94	2225	5620244	RETR12.004	10	10	Bacteria	None	None	None	None	None	None
+RETR12.005	BACTERIA	1.0	95.77	25.35	1308	4334730	RETR12.005	27	11	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+RETR12.006	BACTERIA	0.8	81.69	26.76	1668	2964206	RETR12.006	29	29	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR12.007	BACTERIA	0.4	46.48	21.13	2877	7045721	RETR12.007	5	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	M3007	M3007 sp006226345
+RETR12.008	BACTERIA	1.0	97.18	204.23	817	5161888	RETR12.008	48	33	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR12.009	BLANK	0.7	0.00	0.00	2623	4508439	RETR12.009	1	1	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+RETR12.010	BACTERIA	0.9	90.14	40.85	991	2362848	RETR12.010	33	13	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus morosus
+RETR12.011	BACTERIA	0.3	35.21	2.82	1011	2642319	RETR12.011	2	2	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	None	None
+RETR12.012	BACTERIA	0.6	63.38	57.75	1503	3490512	RETR12.012	14	4	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR12.013	BACTERIA	1.0	94.37	14.08	1892	6244304	RETR12.013	22	21	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+RETR12.014	BACTERIA	0.2	35.21	7.04	1796	4109298	RETR12.014	8	3	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Pseudarcicella	Pseudarcicella hirudinis
+RETR12.015	BACTERIA	0.4	54.93	39.44	856	3571183	RETR12.015	9	9	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR12.016	BACTERIA	0.3	22.54	9.86	844	1755704	RETR12.016	7	2	Bacteria	Bacteroidota	Bacteroidia	NS11-12g	UKL13-3	B1	B1 sp002256395
+RETR12.017	BACTERIA	0.4	32.39	22.54	688	1191913	RETR12.017	15	13	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR12.018	BACTERIA	0.4	29.58	21.13	162	370793	RETR12.018	16	9	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR12.019	BACTERIA	0.7	69.01	81.69	2654	5064655	RETR12.019	17	17	Bacteria	None	None	None	None	None	None
+RETR12.020	BACTERIA	0.4	52.11	9.86	1476	3061840	RETR12.020	13	8	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR12.021	BACTERIA	0.3	36.62	16.90	2409	4804334	RETR12.021	3	3	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR12.022	BACTERIA	0.6	64.79	19.72	2512	3939702	RETR12.022	22	8	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Crocinitomicaceae	UBA4466	UBA4466 sp002733985
+RETR12.023	BACTERIA	0.8	81.69	73.24	3259	5666444	RETR12.023	34	34	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR12.024	BACTERIA	0.6	64.79	14.08	3179	4705260	RETR12.024	13	13	Bacteria	None	None	None	None	None	None
+RETR12.025	BACTERIA	0.7	67.61	15.49	1318	2624563	RETR12.025	15	5	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus morosus
+RETR12.026	BLANK	0.9	0.00	0.00	1878	3228911	RETR12.026	6	2	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Arcicella	Arcicella aurantiaca
+RETR12.027	BACTERIA	0.5	45.07	30.99	2901	4988676	RETR12.027	16	16	Bacteria	None	None	None	None	None	None
+RETR12.028	BACTERIA	0.9	78.87	61.97	2999	4773862	RETR12.028	37	37	Bacteria	None	None	None	None	None	None
+RETR12.029	BACTERIA	0.3	42.25	29.58	3240	5619549	RETR12.029	1	1	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	M3007	M3007 sp006226345
+RETR12.030	BACTERIA	0.3	38.03	15.49	2865	4659825	RETR12.030	11	3	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	SLDF01	SLDF01 sp007125435
+RETR12.031	BACTERIA	0.6	57.75	36.62	5178	8161134	RETR12.031	6	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	UBA2329	UBA2329 sp002344975
+RETR12.032	BACTERIA	0.4	36.62	21.13	2401	3691998	RETR12.032	6	6	Bacteria	None	None	None	None	None	None
+RETR12.033	BACTERIA	0.6	59.15	16.90	2057	3705365	RETR12.033	15	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Crocinitomicaceae	UBA4466	UBA4466 sp002733985
+RETR12.034	BACTERIA	0.4	49.30	28.17	2480	5104559	RETR12.034	5	2	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	SCMT01	SCMT01 sp005502915
+RETR12.035	BACTERIA	0.6	66.20	36.62	3739	6672079	RETR12.035	13	13	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR12.036	BACTERIA	0.5	52.11	32.39	846	1441353	RETR12.036	16	6	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR12.037	BLANK	0.8	0.00	0.00	1003	1600288	RETR12.037	6	6	Bacteria	None	None	None	None	None	None
+RETR12.038	BACTERIA	0.4	38.03	25.35	3886	6624497	RETR12.038	7	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	SG8-41	UBA5216	UBA5216 sp005800795
+RETR12.039	BACTERIA	1.0	87.32	73.24	3290	5645819	RETR12.039	42	22	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	SG8-41	UBA5216	UBA5216 sp002412495
+RETR12.040	BLANK	0.8	0.00	0.00	216	369904	RETR12.040	3	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+RETR12.041	BACTERIA	0.6	57.75	25.35	1894	3347657	RETR12.041	16	7	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus morosus
+RETR12.042	BACTERIA	0.4	38.03	5.63	448	773610	RETR12.042	8	6	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	None
+RETR12.043	BACTERIA	0.7	73.24	57.75	2259	3656711	RETR12.043	37	28	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	None	None
+RETR12.044	BACTERIA	0.7	63.38	59.15	3025	4519944	RETR12.044	33	20	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR12.045	BACTERIA	0.5	64.79	21.13	1917	2868140	RETR12.045	16	16	Bacteria	Proteobacteria	Alphaproteobacteria	None	None	None	None
+RETR12.046	BACTERIA	0.8	76.06	40.85	2985	4151030	RETR12.046	26	9	Bacteria	Actinobacteriota	Thermoleophilia	Ga0077560	Ga0077560	Ga0077560	Ga0077560 sp001464275
+RETR15.001	BACTERIA	0.9	87.32	1.41	389	5454130	RETR15.001	18	18	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+RETR15.002	BACTERIA	0.5	39.44	4.23	108	730105	RETR15.002	8	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+RETR15.003	BLANK	1.0	0.00	0.00	182	521032	RETR15.003	0	0	None	None	None	None	None	None	None
+RETR15.004	BACTERIA	1.0	100.00	18.31	1174	9778956	RETR15.004	24	7	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Sorangium	Sorangium cellulosum
+RETR15.005	BACTERIA	0.6	52.11	32.39	23	203704	RETR15.005	6	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+RETR15.006	BACTERIA	1.0	98.59	9.86	480	2907714	RETR15.006	24	22	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	None	None
+RETR15.007	BACTERIA	0.6	61.97	16.90	1988	3358007	RETR15.007	25	21	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+RETR15.008	BACTERIA	0.9	81.69	14.08	1726	4586574	RETR15.008	21	18	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Bernardetiaceae	Thermoflexibacter	Thermoflexibacter sp004294445
+RETR15.009	BACTERIA	0.8	85.92	12.68	1258	3743815	RETR15.009	21	18	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Polaromonas	None
+RETR15.010	BLANK	0.7	0.00	0.00	68	124349	RETR15.010	2	2	Bacteria	None	None	None	None	None	None
+RETR15.011	BACTERIA	0.9	76.06	33.80	1889	3376507	RETR15.011	22	14	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	UBA9547	REAG01	REAG01 sp004294265
+RETR15.012	BACTERIA	0.8	66.20	19.72	988	1873219	RETR15.012	5	4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	UBA9547	REAG01	REAG01 sp004294265
+RETR15.013	BACTERIA	0.7	60.56	25.35	2437	3926640	RETR15.013	27	13	Bacteria	Spirochaetota	Leptospirae	Leptospirales	Leptospiraceae	UBA2033	UBA2033 sp002333425
+RETR19.001	BLANK	1.0	0.00	0.00	227	320928	RETR19.001	0	0	None	None	None	None	None	None	None
+RETR19.002	BACTERIA	1.0	100.00	111.27	1949	9545565	RETR19.002	32	7	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Sorangium	Sorangium cellulosum
+RETR19.003	BACTERIA	1.0	98.59	33.80	3048	9070354	RETR19.003	17	7	Bacteria	Myxococcota	Polyangia	Haliangiales	Haliangiaceae	UBA2376	UBA2376 sp900696455
+RETR19.004	BACTERIA	0.7	66.20	32.39	1453	3164131	RETR19.004	20	20	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+RETR19.005	BACTERIA	0.8	84.51	30.99	3147	5665971	RETR19.005	24	6	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+RETR19.006	BACTERIA	0.7	71.83	54.93	1156	2380663	RETR19.006	13	4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	UBA9547	REAG01	REAG01 sp004294265
+RETR19.007	BACTERIA	0.5	57.75	30.99	2892	4208631	RETR19.007	14	14	Bacteria	None	None	None	None	None	None
+SWAB12.001	BACTERIA	0.4	40.85	1.41	585	4927179	SWAB12.001	5	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Flavilitoribacter	Flavilitoribacter nigricans
+SWAB12.002	BACTERIA	1.0	94.37	4.23	252	4848233	SWAB12.002	22	8	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+SWAB12.003	BACTERIA	0.8	78.87	5.63	615	5863241	SWAB12.003	9	9	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	None	None
+SWAB12.004	BLANK	1.0	0.00	0.00	126	921703	SWAB12.004	0	0	None	None	None	None	None	None	None
+SWAB12.005	BACTERIA	0.6	60.56	9.86	134	1130723	SWAB12.005	17	17	Bacteria	Proteobacteria	Gammaproteobacteria	None	None	None	None
+SWAB12.006	BLANK	0.9	0.00	0.00	25	205557	SWAB12.006	0	0	None	None	None	None	None	None	None
+SWAB12.007	BACTERIA	0.7	76.06	16.90	681	6726602	SWAB12.007	20	20	Bacteria	Actinobacteriota	Acidimicrobiia	Acidimicrobiales	None	None	None
+SWAB12.008	BACTERIA	0.9	92.96	26.76	218	2629056	SWAB12.008	28	7	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+SWAB12.009	BACTERIA	0.5	57.75	28.17	626	4847750	SWAB12.009	16	3	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	UBA4615	UBA4615 sp003818495
+SWAB12.010	BACTERIA	1.0	94.37	60.56	1060	8370077	SWAB12.010	30	7	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	M3007	M3007 sp006226345
+SWAB15.001	BACTERIA	1.0	97.18	4.23	514	6182939	SWAB15.001	22	22	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Phormidiaceae	Microcoleus	None
+SWAB15.002	BACTERIA	0.6	56.34	2.82	641	1649312	SWAB15.002	5	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+SWAB15.003	BACTERIA	1.0	100.00	39.44	510	5816061	SWAB15.003	24	22	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Alteromonadaceae	Pararheinheimera	None
+SWAB15.004	BACTERIA	1.0	98.59	349.30	834	6696160	SWAB15.004	54	54	Bacteria	None	None	None	None	None	None
+SWAB15.005	BACTERIA	1.0	100.00	7.04	991	9158844	SWAB15.005	21	7	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Sorangium	Sorangium cellulosum
+SWAB15.006	BACTERIA	1.0	94.37	15.49	498	3157891	SWAB15.006	25	19	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Polaromonas	None
+SWAB15.007	BACTERIA	0.6	45.07	49.30	40	138502	SWAB15.007	13	7	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+SWAB15.008	BACTERIA	0.6	54.93	15.49	2168	4746333	SWAB15.008	9	9	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB15.009	BACTERIA	0.3	26.76	21.13	1766	3010368	SWAB15.009	18	4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Bernardetiaceae	Thermoflexibacter	Thermoflexibacter sp004294445
+SWAB15.010	BLANK	0.7	0.00	0.00	5029	8096971	SWAB15.010	5	2	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Chamaesiphonaceae	Chamaesiphon	Chamaesiphon polymorphus
+SWAB15.011	BACTERIA	0.7	64.79	23.94	854	1589196	SWAB15.011	26	20	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB15.012	BACTERIA	0.3	26.76	9.86	706	1113801	SWAB15.012	12	6	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	None
+SWAB15.013	BACTERIA	1.0	94.37	100.00	4627	7984397	SWAB15.013	46	15	Bacteria	Cyanobacteria	Cyanobacteriia	Leptolyngbyales	Leptolyngbyaceae	Alkalinema	Alkalinema sp002148405
+SWAB15.014	BACTERIA	0.2	18.31	0.00	62	117219	SWAB15.014	1	1	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+SWAB15.015	BACTERIA	0.8	84.51	85.92	5410	9280331	SWAB15.015	29	29	Bacteria	None	None	None	None	None	None
+SWAB15.016	BACTERIA	0.4	45.07	36.62	460	770299	SWAB15.016	29	28	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB15.017	BACTERIA	0.4	29.58	2.82	844	1308335	SWAB15.017	8	8	Bacteria	None	None	None	None	None	None
+SWAB15.018	BLANK	1.0	0.00	0.00	79	138757	SWAB15.018	0	0	None	None	None	None	None	None	None
+SWAB15.019	BLANK	0.7	0.00	0.00	328	562672	SWAB15.019	2	2	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+SWAB15.020	BACTERIA	0.7	63.38	71.83	1892	2999466	SWAB15.020	32	12	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+SWAB15.021	BACTERIA	0.5	53.52	16.90	1045	1747352	SWAB15.021	3	3	Bacteria	None	None	None	None	None	None
+SWAB15.022	BACTERIA	0.7	83.10	90.14	3822	5983296	SWAB15.022	25	8	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	UBA9547	REAG01	REAG01 sp004294265
+SWAB15.023	BACTERIA	1.0	90.14	69.01	1690	2934898	SWAB15.023	41	9	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingorhabdus	Sphingorhabdus sp003367235
+SWAB15.024	BACTERIA	0.3	38.03	4.23	736	1221630	SWAB15.024	8	8	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Pelobium	Pelobium sp004294495
+SWAB15.025	BLANK	0.5	0.00	0.00	3719	5442056	SWAB15.025	1	1	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	UBA997	UBA997 sp002291945
+SWAB15.026	BACTERIA	0.5	40.85	23.94	2101	3284275	SWAB15.026	7	7	Bacteria	Proteobacteria	None	None	None	None	None
+SWAB15.027	BACTERIA	0.6	61.97	26.76	3187	4620265	SWAB15.027	18	4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	Arcicella	Arcicella aurantiaca
+SWAB15.028	BLANK	1.0	0.00	0.00	241	294961	SWAB15.028	0	0	None	None	None	None	None	None	None
+SWAB15.029	BACTERIA	0.4	46.48	12.68	368	505031	SWAB15.029	20	20	Bacteria	None	None	None	None	None	None
+SWAB15.030	BLANK	1.0	0.00	0.00	10106	14112918	SWAB15.030	0	0	None	None	None	None	None	None	None
+SWAB15.031	BLANK	1.0	0.00	0.00	6562	8857991	SWAB15.031	0	0	None	None	None	None	None	None	None
+SWAB1.001	BACTERIA	0.8	84.51	40.85	4988	10545887	SWAB1.001	13	13	Bacteria	None	None	None	None	None	None
+SWAB1.002	BACTERIA	0.6	52.11	16.90	29	141029	SWAB1.002	5	3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+SWAB1.003	BACTERIA	0.2	21.13	4.23	2736	5467356	SWAB1.003	1	1	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	LD1	UBA7692	UBA7692 sp001897535
+SWAB1.004	BACTERIA	0.5	43.66	1.41	55	173562	SWAB1.004	5	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+SWAB1.005	BLANK	0.9	0.00	0.00	383	633880	SWAB1.005	2	2	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+SWAB1.006	BACTERIA	0.9	98.59	57.75	3247	7018151	SWAB1.006	36	16	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus morosus
+SWAB1.007	BLANK	1.0	0.00	0.00	1008	1668446	SWAB1.007	0	0	None	None	None	None	None	None	None
+SWAB1.008	BACTERIA	0.6	70.42	49.30	2996	4264388	SWAB1.008	31	10	Bacteria	Cyanobacteria	Cyanobacteriia	Leptolyngbyales	Leptolyngbyaceae	Alkalinema	Alkalinema sp002148405
+SWAB1.009	BACTERIA	0.7	66.20	26.76	2340	3264596	SWAB1.009	20	4	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+SWAB3.001	BLANK	0.9	0.00	0.00	1771	3124010	SWAB3.001	0	0	None	None	None	None	None	None	None
+SWAB3.002	BACTERIA	1.0	100.00	50.70	1605	5857029	SWAB3.002	33	18	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus morosus
+SWAB3.003	BACTERIA	0.8	77.46	7.04	1097	2377582	SWAB3.003	19	10	Bacteria	Actinobacteriota	Thermoleophilia	Ga0077560	Ga0077560	Ga0077560	Ga0077560 sp001464275
+SWAB3.004	BLANK	0.8	0.00	0.00	2233	4062542	SWAB3.004	1	1	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Paludibacteraceae	RF16	None
+SWAB3.005	BLANK	1.0	0.00	0.00	34	128029	SWAB3.005	0	0	None	None	None	None	None	None	None
+SWAB3.006	BACTERIA	1.0	92.96	16.90	814	4637140	SWAB3.006	25	25	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB3.007	BACTERIA	0.8	80.28	32.39	1813	3636205	SWAB3.007	18	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	UKL13-2	FEB-7	FEB-7 sp003105245
+SWAB3.008	BACTERIA	0.6	49.30	4.23	33	123609	SWAB3.008	3	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp002862755
+SWAB3.009	BACTERIA	0.3	30.99	11.27	2780	5009756	SWAB3.009	6	6	Bacteria	Bacteroidota	Bacteroidia	None	None	None	None
+SWAB3.010	BACTERIA	0.5	64.79	8.45	696	1841640	SWAB3.010	16	16	Bacteria	Proteobacteria	None	None	None	None	None
+SWAB3.011	BACTERIA	0.4	49.30	26.76	1361	3489157	SWAB3.011	13	13	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB3.012	BACTERIA	0.3	29.58	12.68	1577	3897591	SWAB3.012	2	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Sphaerotilus	Sphaerotilus natans
+SWAB3.013	BLANK	1.0	0.00	0.00	280	506818	SWAB3.013	0	0	None	None	None	None	None	None	None
+SWAB3.014	BACTERIA	0.9	90.14	53.52	2577	4843110	SWAB3.014	32	9	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus morosus
+SWAB3.015	BACTERIA	0.8	76.06	52.11	1336	3025097	SWAB3.015	32	12	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Anderseniellaceae	QKVK01	QKVK01 sp003234965
+SWAB3.016	BACTERIA	0.6	53.52	26.76	2207	6522533	SWAB3.016	12	12	Bacteria	None	None	None	None	None	None
+SWAB3.017	BLANK	1.0	0.00	0.00	144	308105	SWAB3.017	4	2	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylophilus	Methylophilus sp002281475
+SWAB3.018	BACTERIA	0.4	40.85	26.76	2976	5105258	SWAB3.018	5	5	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB3.019	BACTERIA	1.0	92.96	2.82	977	3151679	SWAB3.019	17	7	Bacteria	Actinobacteriota	Thermoleophilia	Ga0077560	Ga0077560	Ga0077560	Ga0077560 sp001464275
+SWAB3.020	BACTERIA	0.9	92.96	74.65	2847	7178684	SWAB3.020	30	19	Bacteria	Actinobacteriota	Acidimicrobiia	Acidimicrobiales	None	None	None
+SWAB3.021	BLANK	1.0	0.00	0.00	161	288351	SWAB3.021	0	0	None	None	None	None	None	None	None
+SWAB3.022	BACTERIA	0.3	36.62	19.72	2318	5491147	SWAB3.022	3	3	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	SG8-41	UBA5216	UBA5216 sp002412495
+SWAB3.023	BACTERIA	0.6	59.15	35.21	2168	5147658	SWAB3.023	18	6	Bacteria	Deinococcota	Deinococci	Deinococcales	Trueperaceae	Truepera	Truepera radiovictrix
+SWAB3.024	BACTERIA	0.8	77.46	42.25	2339	5454391	SWAB3.024	26	12	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	SG8-41	UBA5216	UBA5216 sp002412495
+SWAB3.025	BACTERIA	0.8	76.06	12.68	897	1816617	SWAB3.025	18	9	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	Methylotenera versatilis
+SWAB3.026	BACTERIA	0.2	19.72	1.41	225	391761	SWAB3.026	1	1	Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Nostocaceae	Tolypothrix	Tolypothrix hofmanni
+SWAB3.027	BACTERIA	0.5	52.11	63.38	3340	6477623	SWAB3.027	10	10	Bacteria	Proteobacteria	Alphaproteobacteria	None	None	None	None
+SWAB3.028	BACTERIA	0.9	77.46	69.01	1770	3264778	SWAB3.028	33	8	Bacteria	Actinobacteriota	Thermoleophilia	Ga0077560	Ga0077560	Ga0077541	Ga0077541 sp001464995
+SWAB3.029	BACTERIA	0.7	64.79	88.73	2613	4681404	SWAB3.029	40	16	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+SWAB3.030	BACTERIA	0.6	60.56	32.39	1019	2019395	SWAB3.030	22	17	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB3.031	BACTERIA	0.4	45.07	9.86	2393	6041838	SWAB3.031	6	6	Bacteria	Actinobacteriota	None	None	None	None	None
+SWAB3.032	BACTERIA	0.9	83.10	53.52	5063	9394376	SWAB3.032	16	4	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Haliscomenobacter	Haliscomenobacter hydrossis
+SWAB3.033	BACTERIA	0.7	67.61	74.65	2915	5457040	SWAB3.033	22	22	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB3.034	BLANK	1.0	0.00	0.00	139	230420	SWAB3.034	0	0	None	None	None	None	None	None	None
+SWAB3.035	BLANK	0.8	0.00	0.00	1115	1682630	SWAB3.035	2	2	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	None	None
+SWAB3.036	BACTERIA	0.5	64.79	46.48	4003	7768731	SWAB3.036	18	10	Bacteria	Actinobacteriota	Acidimicrobiia	Acidimicrobiales	Ilumatobacteraceae	Ilumatobacter	Ilumatobacter sp002711735
+SWAB3.037	BACTERIA	0.8	73.24	46.48	2032	3749002	SWAB3.037	36	8	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	SG8-41	UBA5216	UBA5216 sp002412495
+SWAB3.038	BLANK	0.8	0.00	0.00	1291	2252858	SWAB3.038	2	2	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	None
+SWAB3.039	BACTERIA	0.3	42.25	4.23	1776	4399061	SWAB3.039	2	2	Bacteria	Chloroflexota	Anaerolineae	Thermoflexales	J036	J036	J036 sp003696945
+SWAB3.040	BACTERIA	0.5	60.56	9.86	1564	3218158	SWAB3.040	10	10	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	None	None
+SWAB3.041	BACTERIA	0.3	43.66	26.76	2136	3703968	SWAB3.041	15	3	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	Methyloglobulus sp003155565
+SWAB3.042	BLANK	0.9	0.00	0.00	971	1700057	SWAB3.042	0	0	None	None	None	None	None	None	None
+SWAB3.043	BACTERIA	0.6	56.34	32.39	469	938493	SWAB3.043	27	27	Bacteria	Proteobacteria	None	None	None	None	None
+SWAB3.044	BACTERIA	0.7	71.83	25.35	2177	4095655	SWAB3.044	20	20	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB3.045	BACTERIA	0.7	69.01	85.92	1681	2972529	SWAB3.045	48	48	Bacteria	None	None	None	None	None	None
+SWAB3.046	BACTERIA	0.6	64.79	36.62	4479	7995341	SWAB3.046	16	16	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	None	None	None
+SWAB3.047	BLANK	1.0	0.00	0.00	503	970778	SWAB3.047	0	0	None	None	None	None	None	None	None
+SWAB3.048	BACTERIA	0.6	64.79	47.89	2576	4450305	SWAB3.048	18	6	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingorhabdus	Sphingorhabdus sp003367235
+SWAB3.049	BACTERIA	0.6	66.20	5.63	1635	3715762	SWAB3.049	10	5	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	M3007	M3007 sp006226345
+SWAB3.050	BACTERIA	0.5	57.75	18.31	1999	3923996	SWAB3.050	7	7	Bacteria	Proteobacteria	Alphaproteobacteria	None	None	None	None
+SWAB3.051	BACTERIA	0.6	50.70	18.31	1694	3208660	SWAB3.051	13	4	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium	Hyphomicrobium sp002928515
+SWAB3.052	BACTERIA	0.8	73.24	50.70	1838	3002224	SWAB3.052	29	8	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Anderseniellaceae	PALSA-927	PALSA-927 sp003151375
+SWAB3.053	BACTERIA	0.4	43.66	12.68	1967	2989964	SWAB3.053	9	3	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Anderseniellaceae	SCPD01	None
+SWAB3.054	BLANK	1.0	0.00	0.00	289	440516	SWAB3.054	1	1	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	OLB9	OLB9 sp002482845
+SWAB3.055	BACTERIA	0.5	53.52	14.08	1710	2930185	SWAB3.055	9	2	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Anderseniellaceae	QKVK01	QKVK01 sp003234965
+SWAB3.056	BACTERIA	0.5	39.44	25.35	488	792056	SWAB3.056	19	7	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	None	None
+SWAB3.057	BLANK	0.8	0.00	0.00	805	1286486	SWAB3.057	2	2	Bacteria	Proteobacteria	Alphaproteobacteria	None	None	None	None
+SWAB3.058	BLANK	0.8	0.00	0.00	259	377731	SWAB3.058	4	3	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	None	None
+SWAB3.059	BACTERIA	0.5	36.62	40.85	220	300658	SWAB3.059	25	3	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium	Hyphomicrobium sp900117445
+SWAB3.060	BLANK	0.9	0.00	0.00	469	742981	SWAB3.060	4	4	Bacteria	None	None	None	None	None	None
+SWAB3.061	BLANK	0.8	0.00	0.00	1052	1676369	SWAB3.061	1	1	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium	Methylobacterium sp000333655
+SWAB3.062	BACTERIA	0.5	57.75	14.08	2859	4738016	SWAB3.062	10	2	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Spirosomaceae	REAB01	REAB01 sp004293645
+SWAB3.063	BACTERIA	0.5	40.85	21.13	1974	3066981	SWAB3.063	8	8	Bacteria	None	None	None	None	None	None
+SWAB3.064	BACTERIA	0.6	52.11	42.25	2678	4320156	SWAB3.064	20	20	Bacteria	Proteobacteria	None	None	None	None	None
+SWAB3.065	BACTERIA	0.7	63.38	78.87	1554	2327110	SWAB3.065	43	18	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	None	None
+SWAB3.066	BACTERIA	0.4	36.62	5.63	2640	4354831	SWAB3.066	7	4	Bacteria	Myxococcota	Polyangia	Haliangiales	Haliangiaceae	UBA2376	UBA2376 sp900696455
+SWAB3.067	BACTERIA	0.5	53.52	30.99	3093	4510936	SWAB3.067	17	17	Bacteria	None	None	None	None	None	None
+SWAB3.068	BACTERIA	0.6	52.11	36.62	1650	2282989	SWAB3.068	25	25	Bacteria	None	None	None	None	None	None
+SWAB3.069	BACTERIA	0.7	60.56	23.94	1653	2541644	SWAB3.069	19	19	Bacteria	Proteobacteria	Alphaproteobacteria	None	None	None	None
+SWAB3.070	BACTERIA	0.8	77.46	29.58	3076	4793430	SWAB3.070	20	5	Bacteria	Actinobacteriota	Acidimicrobiia	Acidimicrobiales	SZUA-35	SZUA-35	SZUA-35 sp003231975
+SWAB3.071	BACTERIA	0.4	33.80	7.04	2690	3660831	SWAB3.071	6	6	Bacteria	None	None	None	None	None	None
+SWAB3.072	BACTERIA	0.4	45.07	43.66	3714	5501789	SWAB3.072	6	6	Bacteria	Proteobacteria	Alphaproteobacteria	None	None	None	None
+SWAB3.073	BACTERIA	0.8	70.42	40.85	2056	3082435	SWAB3.073	21	21	Bacteria	None	None	None	None	None	None
+SWAB3.074	BACTERIA	0.4	49.30	7.04	1537	2374116	SWAB3.074	11	10	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	None	None
+SWAB3.075	BACTERIA	0.7	64.79	56.34	2485	3469066	SWAB3.075	34	3	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	UBA7672	UBA7672 sp002280725
+SWAB3.076	BACTERIA	0.2	22.54	2.82	1178	1578344	SWAB3.076	4	4	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	V1-33	V1-33	V1-33 sp003402705
