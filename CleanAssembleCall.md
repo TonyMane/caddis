@@ -48,3 +48,8 @@ Note, in the above command, i'm just using default settings. There are tons of d
 For the preliminary analyses i'm doing, i'm most interested in looking at the frequency of functional genes. Having great assemblies is useful, but not
 going to make or break anything at this point. For binning metagenomic assemblies, this is where messing with k-mer sizes, pre-normalization steps (get into this later) become more imporant (again, just my opinion). Also, i'm relying heavily on the defaults as they appear to working nicely (~250000 contig sizes for some of the samples, which is pretty good).
 Binning will take a while (at least 2 hours). megahit multithreads by default, requires a lot of memory, just FYI. 
+
+Below is simple command for downloading fastq files directly from NCBI using fastq dump.
+```
+for i in $(cat /storage/home/hcoda1/7/abertagnolli3/scratch/list.txt); do echo $i; date; fastq-dump $i --split-3 --gzip -O /storage/home/hcoda1/7/abertagnolli3/d-bios-fstewart7/rich_project_pb1/; done;
+```
