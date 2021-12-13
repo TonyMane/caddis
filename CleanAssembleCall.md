@@ -53,3 +53,18 @@ Below is simple command for downloading fastq files directly from NCBI using fas
 ```
 for i in $(cat /storage/home/hcoda1/7/abertagnolli3/scratch/list.txt); do echo $i; date; fastq-dump $i --split-3 --gzip -O /storage/home/hcoda1/7/abertagnolli3/d-bios-fstewart7/rich_project_pb1/; done;
 ```
+a more speedy alternative
+
+```
+module load parallel
+
+cd scratch/
+
+doit() {
+  i="$1"
+  echo "$i"
+  /storage/home/hcoda1/7/abertagnolli3/rich_home_hp10/sratoolkit.2.9.6-1-centos_linux64/bin/fastq-dump --split-files $i -v 
+}
+export -f doit
+parallel doit :::: SRR_Acc_List.txt
+```
