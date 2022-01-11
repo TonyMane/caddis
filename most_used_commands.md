@@ -165,4 +165,15 @@ for running ANOVA and post hoc analyses with subsequent filtering
 ```
 aov.out <- lapply(genes, function(x) { lm(substitute(i ~ type, list(i = as.name(x))), data = metaG)})
 TukeyHSD.out <- lapply(aov.out, function(x) TukeyHSD(aov(x)))
+Comparison = c()
+Gene = c()
+diff = c()
+adj.p_value = c()
+for(i in 1:length(TukeyHSD.out)){
+  Comparison = c(Comparison, rownames(TukeyHSD.out[[i]]$group)) 
+  Gene = c(Gene, rep(genes[i], dim(TukeyHSD.out[[i]]$group)[1]))
+  diff = c(diff, TukeyHSD.out[[i]]$group[,1])
+  adj.p_value = c(adj.p_value, TukeyHSD.out[[i]]$group[,4])
+}
+res = data.frame(Comparison, Gene, diff, adj.p_value)
 ```
