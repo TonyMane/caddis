@@ -170,10 +170,10 @@ Gene = c()
 diff = c()
 adj.p_value = c()
 for(i in 1:length(TukeyHSD.out)){
-  Comparison = c(Comparison, rownames(TukeyHSD.out[[i]]$group)) 
-  Gene = c(Gene, rep(genes[i], dim(TukeyHSD.out[[i]]$group)[1]))
-  diff = c(diff, TukeyHSD.out[[i]]$group[,1])
-  adj.p_value = c(adj.p_value, TukeyHSD.out[[i]]$group[,4])
+  Comparison = c(Comparison, rownames(TukeyHSD.out[[i]]$type)) 
+  Gene = c(Gene, rep(genes[i], dim(TukeyHSD.out[[i]]$type)[1]))
+  diff = c(diff, TukeyHSD.out[[i]]$type[,1])
+  adj.p_value = c(adj.p_value, TukeyHSD.out[[i]]$type[,4])
 }
 res = data.frame(Comparison, Gene, diff, adj.p_value)
 ```
