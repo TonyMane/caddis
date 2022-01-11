@@ -176,4 +176,6 @@ for(i in 1:length(TukeyHSD.out)){
   adj.p_value = c(adj.p_value, TukeyHSD.out[[i]]$type[,4])
 }
 res = data.frame(Comparison, Gene, diff, adj.p_value)
+res.drop<-drop_na(res)
+res.drop.sig<-res.drop[res.drop$adj.p_value<0.05,]
 ```
