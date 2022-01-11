@@ -29,6 +29,9 @@ manuscripts.txt; a collection of manuscript web-links of interest.
 
 bash07012021.R; a simple R script for processing amplicons using dada2 in one command with defaults. 
 
+caddis_metaG_rpkg.txt; functional gene frequencies in metagenomes collected from Cherry Creek (April 7 2021). Genes (databases of genes) were downloaded from Bay 2021 Nature Micro from Greening group @ Monash, n=49 total.
+
+
 ```
 echo "hello world"
 ```
