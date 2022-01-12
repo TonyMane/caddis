@@ -161,7 +161,7 @@ s3d<-scatterplot3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], pch="", box=F
 addgrids3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], grid = c("xy", "xz", "yz"), xlim=c(-3,3), ylim=c(-3,3), zlim=c(-3,3))
 s3d$points3d(x=m$points[,1], y=m$points[,2], z=m$points[,3], pch=sample_data(Net)$Points)
 ```
-for running ANOVA and post hoc analyses with subsequent filtering
+FROM 01-11-2022 Draft1 main stats comments: for running ANOVA and post hoc analyses with subsequent filtering
 ```
 aov.out <- lapply(genes, function(x) { lm(substitute(i ~ type, list(i = as.name(x))), data = metaG)})
 TukeyHSD.out <- lapply(aov.out, function(x) TukeyHSD(aov(x)))
