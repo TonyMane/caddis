@@ -7,7 +7,7 @@ Third portion describes running all this data through DADA2.
 
 Fourth portion describes doing some preliminary alpha/beta diversity assesments.
 
-We found three studies utilizing Earth Microbiome oligos that could be used for direct comparison with our study. This by no means a comprehensive list.
+We found three studies utilizing Earth Microbiome oligos that could be used for direct comparison with our study. This is by no means a comprehensive list.
 The three study Bioproject IDs are PRJEB40063, PRJNA547724, PRJNA589709. More information on
 DOI numbers/publication names can be found in 'Fly-Microbiome-07062021.csv'. For each of the four BioProject IDs,
 we can access all fastq files from the short read archive (SRA) by first getting a list of the experiments IDS (SRR numbers). Can be done multiple ways. 
