@@ -179,3 +179,7 @@ res = data.frame(Comparison, Gene, diff, adj.p_value)
 res.drop<-drop_na(res)
 res.drop.sig<-res.drop[res.drop$adj.p_value<0.05,]
 ```
+an adonis command
+```
+permanova <- adonis(ps4.r_nofly.bc ~ Type, data = ps4.r_nofly.metadata$Type, perm = 999)
+```
