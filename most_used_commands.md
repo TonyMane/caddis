@@ -186,7 +186,6 @@ permanova <- adonis(ps4.r_nofly.bc ~ Type, data = ps4.r_nofly.metadata$Type, per
 for heatmap with column/row annotations. 
 ```
 mat3 <- read.csv("./Desktop/mat3.csv")
-mat2
 my_colour = list(
 Area =c(ETNP="Purple", GD="Green", ETSP="Grey", SI="blue", GOM="Light Blue"),
 Clade = c(one="white", two="blue", three="orange"))
@@ -195,4 +194,8 @@ my_colors <- fun_color_range(100)
 ```
 ```
 pheatmap(data.matrix(mat3), cluster_row=F, cluster_col=F, col=my_colors, display_numbers=TRUE, annotation=Clade, annotation_colors=my_colour, fontsize=7, annotation_row = Area)
+```
+For counting active genes, or presence absence, in a metaT matrix.
+```
+colSums(GD100bin016_per != 0)
 ```
