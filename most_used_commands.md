@@ -183,3 +183,7 @@ an adonis command
 ```
 permanova <- adonis(ps4.r_nofly.bc ~ Type, data = ps4.r_nofly.metadata$Type, perm = 999)
 ```
+for heatmap with column/row annotations. 
+```
+pheatmap(data.matrix(mat3), cluster_row=F, cluster_col=F, col=my_colors, display_numbers=TRUE, annotation=Clade, annotation_colors=my_colour, fontsize=7, annotation_row = Area)
+```
