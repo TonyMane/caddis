@@ -199,3 +199,10 @@ For counting active genes, or presence absence, in a metaT matrix.
 ```
 colSums(GD100bin016_per != 0)
 ```
+a simple function to get the top most active genes from a data frame.
+```
+x <- map(c('var1', 'var2', 'var3'), ~ df %>%
+                                 select(.x) %>%
+                                 slice_max(!! rlang::sym(.x), n = 10))
+```
+                                 
