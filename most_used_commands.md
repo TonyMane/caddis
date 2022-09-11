@@ -205,4 +205,10 @@ x <- map(c('var1', 'var2', 'var3'), ~ df %>%
                                  select(.x) %>%
                                  slice_max(!! rlang::sym(.x), n = 10))
 ```
-                                 
+retrieve just the gene names.
+```
+my_vector = c()
+for (i in x){
+for(i in x){my_vector = c(my_vector, i)}
+my_vector}
+```
