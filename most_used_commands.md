@@ -212,3 +212,9 @@ for (i in x){
 for(i in x){my_vector = c(my_vector, i)}
 my_vector}
 ```
+For getting a rank abundanced plot from a matrix.
+
+```
+RANKED <-t(apply(-GD100bin016_per_2, 2, rank))
+```
+
