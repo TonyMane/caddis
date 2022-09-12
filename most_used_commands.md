@@ -216,5 +216,6 @@ For getting a rank abundanced plot from a matrix.
 
 ```
 RANKED <-t(apply(-GD100bin016_per_2, 2, rank))
+RANKED <- t(RANKED)
 ```
 
