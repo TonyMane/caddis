@@ -218,4 +218,9 @@ For getting a rank abundanced plot from a matrix.
 RANKED <-t(apply(-GD100bin016_per_2, 2, rank))
 RANKED <- t(RANKED)
 ```
-
+```
+physeq %>%
+      refseq() %>%
+      Biostrings::writeXStringSet("~/asv.fna", append=FALSE,
+                                  compress=FALSE, compression_level=NA, format="fasta")
+```
