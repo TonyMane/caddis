@@ -6,3 +6,4 @@ For getting information like 'isolation source' from each $.INFO file retrieved 
 ```
 for f in *SAM*; do grep "isolation source" $f || echo $f; done
 ```
+The above line will simply print the file name if the pattern is not found.
