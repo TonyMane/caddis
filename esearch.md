@@ -4,7 +4,7 @@ for i in $(cat Meth_list.txt); do epost -db BioSample -id $i | efetch -format ru
 ```
 For getting information like 'isolation source' from each $.INFO file retrieved from efetch
 ```
-for f in *SAM*; do grep "isolation source" $f > $f.OUT || echo $f; done;
+for f in *SAM*; do grep "isolation source" $f > $f.OUT || echo $f > $f.OUT; done;
 cat *.OUT* > LIST.txt
 ```
 The above line will simply print the file name if the pattern is not found.
