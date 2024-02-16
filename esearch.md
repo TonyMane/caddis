@@ -7,3 +7,8 @@ For getting information like 'isolation source' from each $.INFO file retrieved 
 for f in *SAM*; do grep "isolation source" $f || echo $f; done
 ```
 The above line will simply print the file name if the pattern is not found.
+Can then concatanete all the results into a single file, LIST.txt.
+To just get the information between the quotations, use:
+```
+sed 's/=/\t/g' LIST.txt | cut -f 4
+```
